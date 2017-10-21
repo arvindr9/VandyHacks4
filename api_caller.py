@@ -17,16 +17,16 @@ import csv
 import os
 
 # actual numbers
-# lat_min = 36
-# lat_max = 49
-# lon_max = -66.585
-# lon_min = -125.208
+ lat_min = 36
+ lat_max = 49
+ lon_max = -66.585
+ lon_min = -125.208
 
 # test numbers (comment out if using the ones above)
-lat_min = 40
-lat_max = 42
-lon_max = -71
-lon_min = -74
+#lat_min = 40
+#lat_max = 42
+#lon_max = -71
+#lon_min = -74
 
 
 lat_incr = 0.724
