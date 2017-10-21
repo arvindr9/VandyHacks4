@@ -14,13 +14,15 @@ import urllib.request
 import json
 import numpy as np
 import csv
+import os
 
-#lat_min = 36
-#lat_max = 49
-#lon_max = -66.585
-#lon_min = -125.208
+# actual numbers
+# lat_min = 36
+# lat_max = 49
+# lon_max = -66.585
+# lon_min = -125.208
 
-
+# test numbers (comment out if using the ones above)
 lat_min = 40
 lat_max = 42
 lon_max = -71
@@ -61,14 +63,11 @@ data = np.asarray(jsons)
 uniques = np.unique(data, axis=0)
 final_data = uniques.tolist()
 
-print(final_data)
-#with open(R'C:\Users\arvin\Desktop\VandyHacks4\shops2.csv', 'w') as f:
-#	writer = csv.writer(f)
-#	writer.writerows(final_data)
+script_dir = os.path.dirname(__file__)
+dataset1 = "shops1.csv"
+dataset2 = "shops2.csv"
 
-
-#np.savetxt(R'C:\Users\yugan\Google Drive\VandyHacks2017\shops.csv', uniques, delimiter=',')
-
-
-#with open(R'C:\Users\yugan\Google Drive\VandyHacks2017\data.txt', 'w') as outfile:
-#	json.dump(jsons, outfile)
+#choose between dataset 1 and 2 here
+with open(dataset1, 'w') as f:
+	writer = csv.writer(f)
+	writer.writerows(final_data)
