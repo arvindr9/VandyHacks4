@@ -1,10 +1,65 @@
 import numpy as np
 import os
+import csv
+
 
 script_dir = os.path.dirname(__file__)
 
-with open(os.path.join(script_dir, 'populations.csv')) as file:
-	lines = [line.split() for line in file]
+# create the populations list
+pops_file = os.path.join(script_dir, 'populations.csv')
+pops_pre = open(pops_file, 'r')
+popsreader = csv.reader(pops_pre, delimiter=',')
+pops = {(row[0].rsplit(' ', 1)[0], row[1]) : row[2] for row in popsreader}
 
-print(lines)
+# load the ice cream shops dataset
+ice_file = os.path.join(script_dir, 'shops_complete.csv')
+ice_pre = open(ice_file, 'r')
+icereader = csv.reader(ice_pre, delimiter=',')
+ice = [row for row in icereader]
 
+# add populations to ice cream
+for row in ice:
+	if (row[6] == "Brooklyn" or row[6] == "Staten Island") and row[7] == "NY":
+		row[6] = "New York"
+	try:
+		row.append(pops[(row[6], row[7])])
+	except:
+		row.append('N/A')
+
+# add dists to ice cream
+tracker = 0
+for row in ice:
+	counter = 0
+	nears = []
+	try:
+		lon = float(row[5])
+		lon_max = lon + 0.1509
+		lon_min = lon - 0.1509
+	except:
+		lon = None
+	
+	try:
+		lat = float(row[4])
+		lat_max = lat + 0.1159
+		lat_min = lat - 0.1159
+	except:
+		lat = None
+	for other in ice:
+		try:
+			other_lat = float(other[4])
+			other_lon = float(other[5])
+			if lat_min <= other_lat <= lat_max and lon_min <= other_lon <= lon_max:
+				counter += 1
+		except:
+			continue
+	if tracker % 1000 == 0:
+		print(tracker)
+	tracker += 1
+	row.append(counter)
+
+	
+
+# write the final shops database
+with open(os.path.join(script_dir, 'shops_final.csv'), 'w') as f:
+	writer = csv.writer(f)
+	writer.writerows(ice)
