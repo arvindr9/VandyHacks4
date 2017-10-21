@@ -15,8 +15,8 @@ import json
 import numpy as np
 import csv
 
-lat_min = 49
-lat_max = 24
+lat_min = 36
+lat_max = 49
 lon_max = -66.585
 lon_min = -125.208
 
@@ -27,8 +27,8 @@ headers={'Authorization': 'Bearer RFLi8BUFII-PkhFpjvY35Y3OyTyGhEDdsFiRW_nqMC7pFm
 jsons = []
 counter = 0
 
-for lat in np.arange(lat_min, lat_max, lat_incr):
-	for lon in np.arange(lon_min, lon_max, lon_incr):
+for lat in np.arange(lat_min, lat_max+1, lat_incr):
+	for lon in np.arange(lon_min, lon_max+2, lon_incr):
 		url = R'https://api.yelp.com/v3/businesses/search?categories=icecream,All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
 		req = urllib.request.Request(url, headers=headers)
 
@@ -53,7 +53,7 @@ data = np.asarray(jsons)
 uniques = np.unique(data, axis=0)
 final_data = uniques.tolist()
 
-with open(R'C:\Users\yugan\Google Drive\VandyHacks2017\shops.csv', 'w') as f:
+with open(R'C:\Users\arvin\Desktop\VandyHacks4\shops2.csv', 'w') as f:
 	writer = csv.writer(f)
 	writer.writerows(final_data)
 
