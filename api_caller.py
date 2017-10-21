@@ -15,10 +15,17 @@ import json
 import numpy as np
 import csv
 
-lat_min = 36
-lat_max = 49
-lon_max = -66.585
-lon_min = -125.208
+#lat_min = 36
+#lat_max = 49
+#lon_max = -66.585
+#lon_min = -125.208
+
+
+lat_min = 40
+lat_max = 42
+lon_max = -71
+lon_min = -74
+
 
 lat_incr = 0.724
 lon_incr = 1.1330514
@@ -39,11 +46,11 @@ for lat in np.arange(lat_min, lat_max+1, lat_incr):
 
 		if length > 0:
 			for n in range(0, length):
-				if json_obj['businesses'][n]['location']['country'] == 'US'
-				try:
-					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], json_obj['businesses'][n]['price'], json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
-				except:
-					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], 'N/A', json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
+				if json_obj['businesses'][n]['location']['country'] == 'US':
+					try:
+						jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], json_obj['businesses'][n]['price'], json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
+					except:
+						jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], 'N/A', json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
 
 		counter += 1
 		if counter % 10 == 0:
@@ -54,9 +61,10 @@ data = np.asarray(jsons)
 uniques = np.unique(data, axis=0)
 final_data = uniques.tolist()
 
-with open(R'C:\Users\arvin\Desktop\VandyHacks4\shops2.csv', 'w') as f:
-	writer = csv.writer(f)
-	writer.writerows(final_data)
+print(final_data)
+#with open(R'C:\Users\arvin\Desktop\VandyHacks4\shops2.csv', 'w') as f:
+#	writer = csv.writer(f)
+#	writer.writerows(final_data)
 
 
 #np.savetxt(R'C:\Users\yugan\Google Drive\VandyHacks2017\shops.csv', uniques, delimiter=',')
