@@ -1,11 +1,11 @@
 function onSubmit() {
-    cityName = city.value;
-    stateName = state.value;
-    distanceValue = distance.value;
+    longVal = longitude.value;
+    latVal = latitude.value;
+    distanceVal = distance.value;
     sendPostReq({
-        cityName,
-        stateName,
-        distanceValue
+        longVal,
+        latVal,
+        distanceVal
     });
     //console.log(cityName);
     analytics.innerHTML = '';
@@ -27,14 +27,16 @@ function sendPostReq(data) {
 function createGraphs() {
     analytics.textContent = "yay, it worked!"
     console.log(analytics.textContent);
-    console.log(cityName + ' ' + stateName + ' ' + distanceValue);
+    console.log(longVal + ' ' + latVal + ' ' + distanceVal);
 }
 const analytics = document.querySelector('#analytics');
-const city = document.querySelector('#city');
-const state = document.querySelector('#state');
+const longitude = document.querySelector('#longitude');
+const latitude = document.querySelector('#latitude');
+//const city = document.querySelector('#city');
+//const state = document.querySelector('#state');
 const distance = document.querySelector('#distance');
 const submit = document.querySelector('#submit');
-let cityName;
-let stateName;
-let distanceValue;
+let longVal;
+let latVal;
+let distanceVal;
 submit.addEventListener('click', onSubmit);
