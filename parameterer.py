@@ -28,9 +28,13 @@ for row in ice:
 
 # add dists to ice cream
 tracker = 0
-for row in ice:
-	counter = 0
+for row in ice:		# FOR EACH SHOP
+
+	counter = 0		# used for both price and number of restaurants near
+	surr_price = 0	# sum of the surrounding prices
+	na_counter = 0
 	nears = []
+
 	try:
 		lon = float(row[5])
 		lon_max = lon + 0.1509
@@ -44,19 +48,51 @@ for row in ice:
 		lat_min = lat - 0.1159
 	except:
 		lat = None
-	for other in ice:
+
+	for other in ice: 
+		other_price = other[3]
+
+		# calculate prices and nearest things
 		try:
 			other_lat = float(other[4])
 			other_lon = float(other[5])
 			if lat_min <= other_lat <= lat_max and lon_min <= other_lon <= lon_max:
 				counter += 1
+
+				if other_price == '$':
+					surr_price += 1
+				elif other_price == '$$':
+					surr_price += 2
+				elif other_price == '$$$':
+					surr_price += 3
+				elif other_price == '$$$$':
+					surr_price += 4
+				else:
+					na_counter -= 1
+
 		except:
 			continue
+
+	row.append(counter)
+
+	if row[3] == '$':
+		this_price = 1
+	elif row[3] == '$$':
+		this_price = 2
+	elif row[3] == '$$$':
+		this_price = 3
+	elif row[3] == '$$$$':
+		this_price = 4
+
+	try:
+		row.append(this_price - (surr_price / (counter + na_counter)))
+	except:
+		row.append(0)
+
+
 	if tracker % 1000 == 0:
 		print(tracker)
 	tracker += 1
-	row.append(counter)
-
 	
 
 # write the final shops database
