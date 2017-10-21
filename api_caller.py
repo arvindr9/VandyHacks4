@@ -17,17 +17,10 @@ import csv
 import os
 
 # actual numbers
-<<<<<<< HEAD
 lat_min = 37
 lat_max = 49
 lon_max = -66.585
 lon_min = -125.208
-=======
- lat_min = 36
- lat_max = 49
- lon_max = -66.585
- lon_min = -125.208
->>>>>>> 9ab750d5ce7fba583a6c64ac4d4a5f5a98932060
 
 # test numbers (comment out if using the ones above)
 #lat_min = 40
@@ -65,10 +58,6 @@ for lat in np.arange(lat_min, lat_max+1, lat_incr):
 		if counter % 10 == 0:
 			print(counter)
 
-data = np.asarray(jsons)
-uniques = np.unique(data, axis=0)
-final_data = uniques.tolist()
-
 script_dir = os.path.dirname(__file__)
 dataset1 = "shops1.csv"
 dataset2 = "shops2.csv"
@@ -76,7 +65,7 @@ dataset2 = "shops2.csv"
 #choose between dataset 1 and 2 here
 with open(os.path.join(script_dir, dataset1), 'w') as f:
 	writer = csv.writer(f)
-	for row in final_data:
+	for row in jsons:
 		try:
 			writer.writerow(row)
 		except:
