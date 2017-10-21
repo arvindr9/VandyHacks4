@@ -17,10 +17,17 @@ import csv
 import os
 
 # actual numbers
+<<<<<<< HEAD
 lat_min = 37
 lat_max = 49
 lon_max = -66.585
 lon_min = -125.208
+=======
+ lat_min = 36
+ lat_max = 49
+ lon_max = -66.585
+ lon_min = -125.208
+>>>>>>> 9ab750d5ce7fba583a6c64ac4d4a5f5a98932060
 
 # test numbers (comment out if using the ones above)
 #lat_min = 40
