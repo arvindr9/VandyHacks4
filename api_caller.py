@@ -63,7 +63,7 @@ dataset1 = "shops1.csv"
 dataset2 = "shops2.csv"
 
 #choose between dataset 1 and 2 here
-with open(os.path.join(script_dir, dataset1), 'w') as f:
+with open(os.path.join(script_dir, dataset2), 'w') as f:
 	writer = csv.writer(f)
 	for row in jsons:
 		try:
