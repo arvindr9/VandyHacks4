@@ -39,10 +39,11 @@ for lat in np.arange(lat_min, lat_max+1, lat_incr):
 
 		if length > 0:
 			for n in range(0, length):
+				if json_obj['businesses'][n]['location']['country'] == 'US'
 				try:
-					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], json_obj['businesses'][n]['price'], json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude']])
+					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], json_obj['businesses'][n]['price'], json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
 				except:
-					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], 'N/A', json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude']])
+					jsons.append([json_obj['businesses'][n]['name'], json_obj['businesses'][n]['review_count'], json_obj['businesses'][n]['rating'], 'N/A', json_obj['businesses'][n]['coordinates']['latitude'], json_obj['businesses'][n]['coordinates']['longitude'], json_obj['businesses'][n]['location']['city'], json_obj['businesses'][n]['location']['state']])
 
 		counter += 1
 		if counter % 10 == 0:
