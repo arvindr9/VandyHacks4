@@ -29,8 +29,8 @@ const spawn = require('child_process').spawn;
 
 let executePythonScript = () => {
   // python stuff here
-  py    = spawn('python', ['compute_input.py']);
-  //data = [1,2,3,4,5,6,7,8,9],
+  py    = spawn('python', ['script.py']);
+  data = [1],
   dataString = '';
 
   py.stdout.on('data', function(data){
@@ -42,6 +42,7 @@ let executePythonScript = () => {
   py.stdin.write(JSON.stringify(data));
   py.stdin.end();
 }
+executePythonScript();
 
 
 
