@@ -28,6 +28,7 @@ import os
 #lon_max = -71
 #lon_min = -74
 
+shop_type = 'icecream'
 
 lat_incr = 0.724
 lon_incr = 1.1330514
@@ -38,7 +39,7 @@ counter = 0
 
 for lat in np.arange(lat_min, lat_max+1, lat_incr):
 	for lon in np.arange(lon_min, lon_max+2, lon_incr):
-		url = R'https://api.yelp.com/v3/businesses/search?categories=icecream,All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
+		url = R'https://api.yelp.com/v3/businesses/search?categories=' + shop_type + ',All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
 		req = urllib.request.Request(url, headers=headers)
 
 		with urllib.request.urlopen(req) as response:
