@@ -32,7 +32,8 @@ app.post('/', jsonParser, (req, res) => {
   const longitude = req.longVal;
   const latitude = req.latVal;
   const radius = req.distanceVal;
-  const query = req.
+  const query = req.queryVal;
+  const cost = req.costVal;
 
   let executeAPIScript = () => {
     // python stuff here
@@ -53,8 +54,8 @@ app.post('/', jsonParser, (req, res) => {
   let executeMLScript = () => {
     // python stuff here
     py  = spawn('python', ['./MachineLearning.py']);
-    /*data = []
-    dataString = '';
+    data = [longitude, latitude, radius, query, cost];
+    /*dataString = '';
     //run script
     py.stdout.on('data', function(data){
       dataString += data.toString();
@@ -65,6 +66,21 @@ app.post('/', jsonParser, (req, res) => {
     py.stdin.write(JSON.stringify(data));
     py.stdin.end();*/
   } 
+
+  let executePredictScript = () {
+    py  = spawn('python', ['./prediction.py']);
+    data = []
+    /*dataString = '';
+    //run script
+    py.stdout.on('data', function(data){
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function(){
+      console.log('result:',dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+    py.stdin.end();*/
+  }
   console.log("API start");
   executeAPIScript();
   console.log("ML start");
