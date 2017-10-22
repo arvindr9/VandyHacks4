@@ -1,7 +1,9 @@
 import numpy as np
 import os
 import csv
-
+import requests
+import urllib.request
+import json
 
 script_dir = os.path.dirname(__file__)
 
@@ -16,6 +18,7 @@ ice_file = os.path.join(script_dir, 'shops_complete.csv')
 ice_pre = open(ice_file, 'r')
 icereader = csv.reader(ice_pre, delimiter=',')
 ice = [row for row in icereader]
+
 
 # add populations to ice cream
 for row in ice:
@@ -93,9 +96,22 @@ for row in ice:		# FOR EACH SHOP
 	if tracker % 1000 == 0:
 		print(tracker)
 	tracker += 1
-	
-
+'''
+#Demographic information: Age Groups and Median Income
+ticker = 0
+for row in ice:
+	dlat = row[4]
+	dlong = row[5]
+	url = "https://www.broadbandmap.gov/broadbandmap/demographic/2014/coordinates?latitude=" + dlat + "&longitude=" + dlong + "&format=json"
+	req = urllib.request.Request(url)
+	with urllib.request.urlopen(req) as response:
+		json_obj = json.loads(response.read().decode('utf-8'))
+	row.append(json_obj['Results']['medianIncome'])
+	ticker += 1
+	if ticker % 100 == 0:
+		print(ticker)
+'''
 # write the final shops database
-with open(os.path.join(script_dir, 'shops_final.csv'), 'w') as f:
+with open(os.path.join(script_dir, 'shops_final.csv'), 'w', newline='') as f:
 	writer = csv.writer(f)
 	writer.writerows(ice)
