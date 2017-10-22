@@ -143,7 +143,3 @@ class Ecosystem():
 		with open(os.path.join(self.dir, 'ecosystem.csv'), 'w', newline='') as f:
 			writer = csv.writer(f)
 			writer.writerows(data)
-
-eco = Ecosystem(40.673419, -73.931366, 5, 1)
-eco.to_file()
-#shop = Business(42.0027162754, -87.8184663962, 'Chicago', 'IL', 1)
