@@ -4,6 +4,7 @@ import csv
 import requests
 import urllib.request
 import json
+import copy
 
 script_dir = os.path.dirname(__file__)
 
@@ -112,6 +113,19 @@ for row in ice:
 		print(ticker)
 '''
 # write the final shops database
-with open(os.path.join(script_dir, 'shops_final.csv'), 'w', newline='') as f:
+ice_copy = copy.copy(ice)
+
+for row in ice_copy:
+	row[0]=''
+	row[4]=''
+	row[5]=''
+	row[6]=''
+	row[7]=''
+
+with open(os.path.join(script_dir, 'shops_og.csv'), 'w', newline='') as f:
 	writer = csv.writer(f)
 	writer.writerows(ice)
+
+with open(os.path.join(script_dir, 'shops_final.csv'), 'w', newline='') as f:
+	writer = csv.writer(f)
+	writer.writerows(ice_copy)

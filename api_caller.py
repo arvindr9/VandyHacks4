@@ -27,7 +27,7 @@ lon_min = -125.208
 
 # test numbers (comment out if using the ones above)
 #lat_min = 40
-#lat_max = 42
+#lat_max = 42 	
 #lon_max = -71
 #lon_min = -74
 
