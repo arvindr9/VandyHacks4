@@ -1,0 +1,43 @@
+{
+  "version" : "1.0",
+  "rowId" : null,
+  "rowWeight" : null,
+  "targetAttributeName" : "_Target_",
+  "dataFormat" : "CSV",
+  "dataFileContainsHeader" : false,
+  "attributes" : [ {
+    "attributeName" : "Var01",
+    "attributeType" : "TEXT"
+  }, {
+    "attributeName" : "_Target_",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "Var03",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "Var04",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "Var05",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "Var06",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "Var07",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "Var08",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "Var09",
+    "attributeType" : "CATEGORICAL"
+  }, {
+    "attributeName" : "Var10",
+    "attributeType" : "NUMERIC"
+  }, {
+    "attributeName" : "Var11",
+    "attributeType" : "NUMERIC"
+  } ],
+  "excludedAttributeNames" : [ ]
+}
