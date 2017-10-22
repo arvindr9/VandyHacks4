@@ -8,3 +8,6 @@ A negative price differential means the shop is cheaper than what's around it.
 
 VALUES THAT ARE UNAVAILABLE ARE 'N/A' FOR MOST COLUMNS. Some are None (Python)
 
+Creating an ecosystem:
+The locationer.py file contains a class Ecosystem that describes the features of coordinates in a certain range.
+
