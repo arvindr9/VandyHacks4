@@ -122,10 +122,10 @@ for row in ice_copy:
 	row[6]=''
 	row[7]=''
 
-with open(os.path.join(script_dir, 'shops_final.csv'), 'w', newline='') as f:
+with open(os.path.join(script_dir, 'shops_og.csv'), 'w', newline='') as f:
 	writer = csv.writer(f)
 	writer.writerows(ice)
 
-with open(os.path.join(script_dir, 'shops_nulled.csv'), 'w', newline='') as f:
+with open(os.path.join(script_dir, 'shops_final.csv'), 'w', newline='') as f:
 	writer = csv.writer(f)
 	writer.writerows(ice_copy)

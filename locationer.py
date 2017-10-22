@@ -21,7 +21,7 @@ class Business():
 	
 	
 	def read_shop_file(self):
-		ice_file = os.path.join(self.dir, 'shops_final.csv')
+		ice_file = os.path.join(self.dir, 'shops_og.csv')
 		ice_pre = open(ice_file, 'r')
 		icereader = csv.reader(ice_pre, delimiter=',')
 		self.shops = [row for row in icereader]
