@@ -54,7 +54,7 @@ app.post('/', jsonParser, (req, res) => {
   let executeMLScript = () => {
     // python stuff here
     py  = spawn('python', ['./MachineLearning.py']);
-    data = [longitude, latitude, radius, query, cost];
+    data = [query];
     /*dataString = '';
     //run script
     py.stdout.on('data', function(data){
@@ -69,7 +69,7 @@ app.post('/', jsonParser, (req, res) => {
 
   let executePredictScript = () {
     py  = spawn('python', ['./prediction.py']);
-    data = []
+    data = [longitude, latitude, radius, query, cost]
     /*dataString = '';
     //run script
     py.stdout.on('data', function(data){

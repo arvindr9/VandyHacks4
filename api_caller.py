@@ -12,6 +12,7 @@ west long: -125.208
 58.623 longitude: 	2586.952 mi	25 mi: 0.5665257	50 mi: 1.1330514
 '''
 import urllib.request
+import sys
 import json
 import numpy as np
 import csv
@@ -32,6 +33,9 @@ lon_min = -125.208
 
 lat_incr = 0.724
 lon_incr = 1.1330514
+
+lines = sys.stdin.readlines()
+lines = json.loads(lines[0])
 
 headers={'Authorization': 'Bearer RFLi8BUFII-PkhFpjvY35Y3OyTyGhEDdsFiRW_nqMC7pFmgittyUkr_Y8xATb_9Pl2X7ct7VjpknNCu3xHCw-uiGD09bLft5ug4R8gWKpxd-gbFefha3c1Sqs_vqWXYx'}
 jsons = []
