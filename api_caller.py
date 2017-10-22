@@ -12,6 +12,7 @@ west long: -125.208
 58.623 longitude: 	2586.952 mi	25 mi: 0.5665257	50 mi: 1.1330514
 '''
 import urllib.request
+import sys
 import json
 import numpy as np
 import csv
@@ -35,12 +36,15 @@ shop_type = 'icecream'
 lat_incr = 0.724
 lon_incr = 1.1330514
 
+
+
 headers={'Authorization': 'Bearer RFLi8BUFII-PkhFpjvY35Y3OyTyGhEDdsFiRW_nqMC7pFmgittyUkr_Y8xATb_9Pl2X7ct7VjpknNCu3xHCw-uiGD09bLft5ug4R8gWKpxd-gbFefha3c1Sqs_vqWXYx'}
 jsons = []
 counter = 0
 
 for lat in np.arange(lat_min, lat_max+1, lat_incr):
 	for lon in np.arange(lon_min, lon_max+2, lon_incr):
+
 		url = R'https://api.yelp.com/v3/businesses/search?categories=' + shop_type + ',All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
 
 		#categories=icecream(later ${keyword}), latitude = lat, longitude = long

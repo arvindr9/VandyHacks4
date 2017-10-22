@@ -32,14 +32,46 @@ app.post('/', jsonParser, (req, res) => {
   const longitude = req.longVal;
   const latitude = req.latVal;
   const radius = req.distanceVal;
+  let query = req.queryVal;
+  const cost = req.costVal;
 
-  let executePythonScript = () => {
+  let executeAPIScript = () => {
     // python stuff here
     py  = spawn('python', ['./api_caller.py']);
-    /*data = []
-    data = [latitude, longitude, radius, category]
+    data = [query]
+   // dataString = '';
+    //run script
+   /* py.stdout.on('data', function(data){
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function(){
+      console.log('result:',dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+    py.stdin.end();*/
+  }
+  let executeMLScript = () => {
+    // python stuff here
+    py  = spawn('python', ['./MachineLearning.py']);
+    /*query = "apple"
+    data = [query];
     dataString = '';
-    run script
+    //run script
+    py.stdout.on('data', function(data){
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function(){
+      console.log('result:',dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+    py.stdin.end();*/
+  } 
+
+  let PredictScript = () => {
+    py  = spawn('python', ['./prediction.py']);
+    //data = [longitude, latitude, radius, query, cost]
+    /*dataString = '';
+    //run script
     py.stdout.on('data', function(data){
       dataString += data.toString();
     });
@@ -49,7 +81,11 @@ app.post('/', jsonParser, (req, res) => {
     py.stdin.write(JSON.stringify(data));
     py.stdin.end();*/
   }
-  executePythonScript();
+  console.log("API start");
+  executeAPIScript();
+  console.log("ML start");
+  executeMLScript();
+
   
   console.log(req.body);
   // create user in req.body
