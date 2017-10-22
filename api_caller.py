@@ -19,7 +19,7 @@ import os
 
 
 # actual numbers
-lat_min = 37
+lat_min = 24
 lat_max = 49
 lon_max = -66.585
 lon_min = -125.208
