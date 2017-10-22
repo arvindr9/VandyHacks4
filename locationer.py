@@ -116,11 +116,11 @@ class Ecosystem():
 
 		self.businesses = []
 		# assume a lot size of 100ft, so 0.01894 miles
-		#lat_count = 0
+		lat_count = 0
 		for lat in np.arange(self.lat_min, self.lat_max, self.miles_to_lat(1)):
 			for lon in np.arange(self.lon_min, self.lon_max, self.miles_to_lon(1)):
-				#lat_count += 1
-				#print(lat_count)
+				lat_count += 1
+				print(lat_count)
 				shop = Business(lat, lon, price)
 
 				if int(shop.population) > 0:
