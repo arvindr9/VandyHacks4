@@ -41,16 +41,10 @@ counter = 0
 
 for lat in np.arange(lat_min, lat_max+1, lat_incr):
 	for lon in np.arange(lon_min, lon_max+2, lon_incr):
-<<<<<<< HEAD
 		url = R'https://api.yelp.com/v3/businesses/search?categories=' + shop_type + ',All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
-=======
-<<<<<<< HEAD
-		url = R'https://api.yelp.com/v3/businesses/search?categories=' + shop_type + ',All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
-=======
-		url = R'https://api.yelp.com/v3/businesses/search?categories=icecream,All&limit=50&radius=40000&latitude=' + str(lat) + '&longitude=' + str(lon)
+
 		#categories=icecream(later ${keyword}), latitude = lat, longitude = long
->>>>>>> b45b4903ce382cdbbaf6c06d7add7e18c95651e6
->>>>>>> 75a8a5ccf6a337d507cb4836a125d1f157f29eec
+
 		req = urllib.request.Request(url, headers=headers)
 
 		with urllib.request.urlopen(req) as response:
