@@ -36,19 +36,10 @@ app.post('/', jsonParser, (req, res) => {
   const cost = req.costVal;
 
   let executeAPIScript = () => {
-    // python stuff here
     py  = spawn('python', ['./api_caller.py']);
-    data = [query]
-   // dataString = '';
-    //run script
-   /* py.stdout.on('data', function(data){
-      dataString += data.toString();
-    });
-    py.stdout.on('end', function(){
-      console.log('result:',dataString);
-    });
-    py.stdin.write(JSON.stringify(data));
-    py.stdin.end();*/
+  }
+  let executeParam = () => {
+    py  = spawn('python', ['./parameterer.py']);
   }
   let executeMLScript = () => {
     // python stuff here
@@ -66,7 +57,6 @@ app.post('/', jsonParser, (req, res) => {
     py.stdin.write(JSON.stringify(data));
     py.stdin.end();*/
   } 
-
   let PredictScript = () => {
     py  = spawn('python', ['./prediction.py']);
     //data = [longitude, latitude, radius, query, cost]
