@@ -67,7 +67,7 @@ for lat in np.arange(lat_min, lat_max+1, lat_incr):
 script_dir = os.path.dirname(__file__)
 dataset = 'shops_complete.csv'
 
-#choose between dataset 1 and 2 here
+# write to the file here
 with open(os.path.join(script_dir, dataset), 'w', newline='') as f:
 	writer = csv.writer(f)
 	for row in jsons:
