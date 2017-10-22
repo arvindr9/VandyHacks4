@@ -62,9 +62,9 @@ eval_datasource = create_data_source(
 
 print(train_datasource['DataSourceId'])
 print(eval_datasource['DataSourceId'])
-
+mlmodel = 'ml-' + randomNum + "-store"
 model_create_response = ml_client.create_ml_model(
-    MLModelId='ml-' + randomNum + "-store",
+    MLModelId=mlmodel,
     MLModelName='ML model: store-from-code',
     MLModelType='REGRESSION',    
     TrainingDataSourceId=train_datasource['DataSourceId'])
@@ -82,3 +82,7 @@ evaluation_response
 eval_result = ml_client.get_evaluation(EvaluationId=evaluation_response['EvaluationId'])
 eval_result['Status']
 eval_result
+
+txtfile = open(os.path.join(data_path, "ml_model_id.txt"), 'w')
+txtfile.write(mlmodel)
+txtfile.close
