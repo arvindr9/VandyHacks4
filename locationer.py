@@ -99,7 +99,7 @@ An Ecosystem is a collection of Businesses with a center lat/long coordinate and
 '''
 class Ecosystem():
 
-	def __init__(self, latitude, longitude, range, price):
+	def __init__(self, latitude, longitude, miles, price):
 		# the central latitude and longitude
 		self.lat_center = latitude
 		self.lon_center = longitude
@@ -109,10 +109,10 @@ class Ecosystem():
 		self.get_location()
 
 		# defining the range boundaries
-		self.lat_max = self.lat_center + self.miles_to_lat(range)
-		self.lat_min = self.lat_center - self.miles_to_lat(range)
-		self.lon_max = self.lon_center + self.miles_to_lon(range)
-		self.lon_min = self.lon_center - self.miles_to_lon(range)
+		self.lat_max = self.lat_center + self.miles_to_lat(miles)
+		self.lat_min = self.lat_center - self.miles_to_lat(miles)
+		self.lon_max = self.lon_center + self.miles_to_lon(miles)
+		self.lon_min = self.lon_center - self.miles_to_lon(miles)
 
 		self.businesses = []
 		# assume a lot size of 100ft, so 0.01894 miles
