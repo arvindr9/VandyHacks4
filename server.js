@@ -6,7 +6,7 @@ const server = require('http').Server(app);
 // serves all static files in /public
 app.use(express.static(`${__dirname}/public`));
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
 // start server
 server.listen(port, () => {
@@ -23,19 +23,19 @@ const urlencodedParser = bodyParser.urlencoded({
   extended: false,
 });
 
-
+const { exec } = require('child_process');
 const spawn = require('child_process').spawn;
 
 // POST /api/users gets JSON bodies
 app.post('/', jsonParser, (req, res) => {
   if (!req.body) return res.sendStatus(400);
-  const longitude = req.longVal;
-  const latitude = req.latVal;
-  const radius = req.distanceVal;
+  let longitude = req.longVal;
+  let latitude = req.latVal;
+  let radius = req.distanceVal;
   let query = req.queryVal;
-  const cost = req.costVal;
+  let cost = req.costVal;
 
-  let executeAPIScript = () => {
+  /*let executeAPIScript = () => {
     py  = spawn('python', ['./api_caller.py']);
   }
   let executeParam = () => {
@@ -50,15 +50,15 @@ app.post('/', jsonParser, (req, res) => {
     //run script
     py.stdout.on('data', function(data){
       dataString += data.toString();
+    });*/
+    /*py.stdout.on('end', function(){
+      console.log('done');
     });
-    py.stdout.on('end', function(){
-      console.log('result:',dataString);
-    });
-    py.stdin.write(JSON.stringify(data));
-    py.stdin.end();*/
-  } 
+    /*py.stdin.write(JSON.stringify(data));
+    py.stdin.end();
+} */
   let PredictScript = () => {
-    py  = spawn('python', ['./prediction.py']);
+    exec('python', ['./prediction.py', longitude, latitude, radius, cost]);
     //data = [longitude, latitude, radius, query, cost]
     /*dataString = '';
     //run script
@@ -72,9 +72,11 @@ app.post('/', jsonParser, (req, res) => {
     py.stdin.end();*/
   }
   console.log("API start");
-  executeAPIScript();
+  /*executeAPIScript();
+  executeParam();
   console.log("ML start");
-  executeMLScript();
+  executeMLScript();*/
+  PredictScript();
 
   
   console.log(req.body);

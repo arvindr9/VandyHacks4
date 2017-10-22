@@ -329,3 +329,10 @@ html * {
   left: 90%;
   top: 77%;
 }
+
+#relokate {
+  margin: auto;
+  height: 80%;
+  width: 40%;
+  border-radius: 10px;
+}
