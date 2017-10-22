@@ -42,7 +42,7 @@ class Business():
 		lat_max = self.lat + 0.1159
 		lat_min = self.lat - 0.1159
 		lon_max = self.lon + 0.1509
-		lon_min = self.lon - 1509
+		lon_min = self.lon - 0.1509
 
 		counter = 0
 
