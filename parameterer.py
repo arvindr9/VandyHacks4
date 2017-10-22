@@ -108,7 +108,7 @@ for row in ice:
 		json_obj = json.loads(response.read().decode('utf-8'))
 	row.append(json_obj['Results']['medianIncome'])
 	ticker += 1
-	if ticker % 100 == 0:
+	if ticker % 100 == 0: 	
 		print(ticker)
 '''
 # write the final shops database
