@@ -34,24 +34,75 @@
             </ul>
         </nav>
         <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
-    
+
         <section id="section1" class="cd-section">
-            <h1>Hack Vandy</h1>
-            <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+            <img src="ReLokate.png">
+            <a href="#map" class="cd-scroll-down cd-img-replace">scroll down</a>
         </section><!-- cd-section -->
-    
+        <div id="map" style="width:100%;height:600px;"></div>
+        <script>
+        var map;
+        var markers = [];
+        function myMap() {
+          var mapCanvas = document.getElementById("map");
+          var myCenter=new google.maps.LatLng(36.072190356913964,-86.7755126953125);
+          var mapOptions = {center: myCenter, zoom: 10};
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          google.maps.event.addListener(map, 'click', function(event) {
+            placeMarker(map, event.latLng);
+            //deleteMarkers();
+          });
+        }
+        function setMapOnAll(map) {
+        for (var i = 0; i < markers.length; i++) {
+          markers[i].setMap(map);
+          }
+        }
+        // Removes the markers from the map, but keeps them in the array.
+        function clearMarkers() {
+          setMapOnAll(null);
+        }
+
+        // Deletes all markers in the array by removing references to them.
+        function deleteMarkers() {
+          clearMarkers();
+          markers = [];
+        }
+        function placeMarker(map, location) {
+          deleteMarkers();
+          var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+        document.getElementById("longitude").value = location.lng();
+        document.getElementById("latitude").value = location.lat();
+        markers.push(marker);
+        setMapOnAll(map);
+          var infowindow = new google.maps.InfoWindow({
+            content: 'Latitude: ' + location.lat() + '<br>Longitude: ' + location.lng()
+          });
+          infowindow.open(map,marker);
+
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn7slFpY1CnTmhnsgqJYq1DEyT30vBStc&callback=myMap"></script>
         <section id="section2" class="cd-section">
             <h2>Discover</h2>
             <!--<form class="form">-->
             <div>
                 <!--<input id = "city" type="text" placeholder="City">-->
                 <!--<input id = "state" type="text" placeholder="State">-->
-                <input id = "longitude" type="text" placeholder="Longitude">
-                <input id = "latitude" type = "text" placeholder="Latitude"> 
+
+                <input id = "longitude" value = "" type="text" placeholder="Longitude">
+                <input id = "latitude" value = "" type = "text" placeholder="Latitude">
                 <input id = "distance" type="text" placeholder="Miles Away">
+                <input id = "business" type="text" placeholder="Ice Cream">
+
+                <input type="range" min="1" max="4" value="3" class="slider" id="myRange">
+                <p>Price: <span id="demo"></span></p>
 
                 <button id="submit"> Analyze</button>
-    
+
             <!--</form>-->
             </div>
             <div id = "analytics" class = "hidden">
@@ -59,8 +110,19 @@
             </div>
         </section><!-- cd-section -->
         <section id="section3" class="cd-section">
-            <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+            <div class="">
+              <h2>Arvind, Rohit, Yugan, and Sai</h2>
+            </div>
         </section><!-- cd-section -->
-    
+
     </body>
+    <script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
 </html>

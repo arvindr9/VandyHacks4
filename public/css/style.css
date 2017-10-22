@@ -7,37 +7,37 @@ html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+
   *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
+
   body {
     font-size: 100%;
     font-family: "Ubuntu", sans-serif;
     color: #3e3947;
     background-color: white;
   }
-  
+
   body, html {
     height: 100%;
   }
-  
+
   a {
     color: #3e3947;
     text-decoration: none;
   }
-  
+
   img {
     max-width: 100%;
   }
-  
+
   /* --------------------------------
-  
+
   Modules - reusable parts of our design
-  
+
   -------------------------------- */
   .cd-img-replace {
     /* replace text with a background-image */
@@ -46,11 +46,11 @@ html * {
     text-indent: 100%;
     white-space: nowrap;
   }
-  
+
   /* --------------------------------
-  
+
   Main components
-  
+
   -------------------------------- */
   .cd-section {
     min-height: 100%;
@@ -69,7 +69,7 @@ html * {
   .cd-section:nth-of-type(even) p {
     color: #bda3ad;
   }
-  .cd-section h1, .cd-section p, .cd-section div {
+  .cd-section h1, .cd-section p, .cd-section div, .cd-section img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -84,10 +84,11 @@ html * {
     max-width: 768px;
     text-align: center;
   }
+
   .cd-section h2 {
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 15%;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -99,7 +100,7 @@ html * {
     max-width: 768px;
     text-align: center;
   }
-  
+
   .cd-section h1 {
     color: white;
     font-weight: 300;
@@ -119,7 +120,7 @@ html * {
   @media only screen and (min-width: 768px) {
     .cd-section h1 {
       font-size: 80px;
-  
+
     }
     .cd-section p {
       font-size: 20px;
@@ -127,7 +128,7 @@ html * {
       line-height: 2;
     }
   }
-  
+
   .cd-scroll-down {
     position: absolute;
     left: 50%;
@@ -141,12 +142,13 @@ html * {
     width: 38px;
     height: 44px;
     background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
+    transition-duration: .5s;
   }
-  
+
   .cd-nav-trigger {
     display: none;
   }
-  
+
   #cd-vertical-nav {
     position: fixed;
     right: 40px;
@@ -229,7 +231,7 @@ html * {
     -o-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
   }
-  
+
   div {
     padding: 20px 0;
     position: relative;
@@ -281,8 +283,49 @@ html * {
   div button:hover {
     background-color: #f5f7f9;
   }
-  
+
   .hidden {
       display: none;
   }
-  
+
+
+  .slider {
+      -webkit-appearance: none;
+      width: 500px;
+      height: 15px;
+      border-radius: 5px;
+      padding: 30px 30px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+  }
+
+  .slider:hover {
+      opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+  }
+
+.cd-section p {
+  position: absolute;
+  left: 90%;
+  top: 77%;
+}
