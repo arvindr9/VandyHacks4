@@ -29,8 +29,6 @@ function sendPostReq(data) {
 }
 
 function createGraphs() {
-    analytics.textContent = "yay, it worked!"
-    console.log(analytics.textContent);
     console.log(longVal + ' ' + latVal + ' ' + distanceVal + ' ' + queryVal + ' ' + costVal);
 }
 const analytics = document.querySelector('#analytics');

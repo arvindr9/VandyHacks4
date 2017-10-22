@@ -35,7 +35,7 @@ app.post('/', jsonParser, (req, res) => {
   let query = req.queryVal;
   let cost = req.costVal;
 
-  /*let executeAPIScript = () => {
+  let executeAPIScript = () => {
     py  = spawn('python', ['./api_caller.py']);
   }
   let executeParam = () => {
@@ -55,10 +55,10 @@ app.post('/', jsonParser, (req, res) => {
       console.log('done');
     });
     /*py.stdin.write(JSON.stringify(data));
-    py.stdin.end();
-} */
+    py.stdin.end();*/
+} 
   let PredictScript = () => {
-    exec('python', ['./prediction.py', longitude, latitude, radius, cost]);
+    py = spawn('python', ['./prediction.py']);
     //data = [longitude, latitude, radius, query, cost]
     /*dataString = '';
     //run script
@@ -76,6 +76,9 @@ app.post('/', jsonParser, (req, res) => {
   executeParam();
   console.log("ML start");
   executeMLScript();*/
+  executeAPIScript();
+  executeParam();
+  executeMLScript();
   PredictScript();
 
   

@@ -19,16 +19,16 @@
     "attributeType" : "CATEGORICAL"
   }, {
     "attributeName" : "Var05",
-    "attributeType" : "NUMERIC"
+    "attributeType" : "TEXT"
   }, {
     "attributeName" : "Var06",
-    "attributeType" : "NUMERIC"
+    "attributeType" : "TEXT"
   }, {
     "attributeName" : "Var07",
-    "attributeType" : "CATEGORICAL"
+    "attributeType" : "TEXT"
   }, {
     "attributeName" : "Var08",
-    "attributeType" : "CATEGORICAL"
+    "attributeType" : "TEXT"
   }, {
     "attributeName" : "Var09",
     "attributeType" : "CATEGORICAL"

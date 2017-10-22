@@ -113,14 +113,14 @@ for row in ice:
 		print(ticker)
 '''
 # write the final shops database
-ice_copy = copy.copy(ice)
+ice_copy = copy.deepcopy(ice)
 
 for row in ice_copy:
-	row[0]=''
-	row[4]=''
-	row[5]=''
-	row[6]=''
-	row[7]=''
+	row[0]=' '
+	row[4]=' '
+	row[5]=' '
+	row[6]=' '
+	row[7]=' '
 
 with open(os.path.join(script_dir, 'shops_og.csv'), 'w', newline='') as f:
 	writer = csv.writer(f)
