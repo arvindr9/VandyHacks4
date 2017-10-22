@@ -6,7 +6,7 @@ Las Delicias Ice Cream & Botanitas,36,5.0,$,37.1247478974109,-121.650948151946,M
 Mission Hill Creamery,331,4.5,$,36.9719325384955,-122.025918960571,Santa Cruz,CA
 A Plus,71,4.5,$,36.6877212524414,-121.797927856445,Marina,CA
 The Penny Ice Creamery,155,4.0,$,36.9642857591552,-121.964819915593,Santa Cruz,CA
-Beach Break by Marianne's,10,5.0,$,36.9726728,-121.9523463,Capitola,CA
+Beach Break by Marianne's,11,5.0,$,36.9726728,-121.9523463,Capitola,CA
 Juicy Sweet,32,4.5,$$,36.9818981,-121.9105144,Aptos,CA
 Yogurt & Love Los Gatos,115,4.5,$,37.2214442765174,-121.980749860049,Los Gatos,CA
 Fro-Yo Fever,61,4.0,$,37.002871324974,-121.5521632221,Gilroy,CA
@@ -19,7 +19,7 @@ Neveria Alaska,16,4.0,$,37.0049305,-121.5678841,Gilroy,CA
 Rita's of Scotts Valley,55,4.0,$,37.047364,-122.026623,Scotts Valley,CA
 Pacific Cookie Company,491,4.5,$,36.9727481,-122.0259525,Santa Cruz,CA
 Cruz Creamery,31,4.0,$$,36.9797686557097,-122.021478882853,Santa Cruz,CA
-Pleasure Point Juice,18,5.0,$,36.96312,-121.97012,Santa Cruz,CA
+Pleasure Point Juice,19,5.0,$,36.96312,-121.97012,Santa Cruz,CA
 The Ugly Mug,139,4.0,$,36.98784,-121.95751,Soquel,CA
 Cutesy Cupcakes,38,4.5,$,37.0453852196264,-122.028686667022,Scotts Valley,CA
 Bouchees,16,4.0,$$,36.9728055,-121.9521329,Capitola,CA
@@ -79,7 +79,7 @@ Chosen Frozen Yogurt,49,4.5,$,36.8662594712883,-119.740326827474,Fresno,CA
 Kogetsu-DO Confectionery,108,4.5,$,36.72995,-119.79397,Fresno,CA
 Jays Specialty Ice Cream,20,4.5,$,36.845416,-119.798372,Fresno,CA
 JoJo's Yogurt,79,4.0,$,36.7927636,-119.682668,Clovis,CA
-Peachy King Frozen Yogurt,17,5.0,$$,36.7361049,-119.7168871,Fresno,CA
+Peachy King Frozen Yogurt,17,5.0,$,36.7361049,-119.7168871,Fresno,CA
 Sno Cafe,21,5.0,$$,36.7375931052305,-119.788230098784,Fresno,CA
 Creamistry,120,3.0,$$,36.8389766237901,-119.726078946746,Clovis,CA
 CREAM,121,3.5,$,36.81674,-119.75502,Fresno,CA
@@ -138,7 +138,7 @@ Affogato,3,5.0,$,37.10683,-113.59266,St. George,UT
 Cold Stone Creamery,15,3.0,$$,37.1120695,-113.5554786,St. George,UT
 Swig,11,2.5,$,37.10961,-113.58913,St. George,UT
 DQ Grill and Chill,2,1.0,N/A,37.095350038965,-113.523279104227,St. George,UT
-Springdale Candy Company,107,4.5,$,37.1888613445825,-112.998156597979,Springdale,UT
+Springdale Candy Company,108,4.5,$,37.1888613445825,-112.998156597979,Springdale,UT
 The Soda Fountain,25,4.5,$,37.048504,-112.532007,Kanab,UT
 Rock Stop,27,5.0,$,37.27206,-112.6475,Orderville,UT
 Hoodoos General Store & Ice Cream Parlor,17,4.0,$,37.1937107673099,-112.993476050193,Springdale,UT
@@ -162,7 +162,7 @@ Dairy Queen,3,3.0,$,37.348316192627,-108.57063293457,Cortez,CO
 Dairy Queen,6,3.5,$,36.711662,-107.988418,Bloomfield,NM
 Dairy Queen,1,1.0,N/A,36.82838,-107.98595,Aztec,NM
 PS Fro Yo,8,4.5,$,37.26728,-107.01209,Pagosa Springs,CO
-The Peak Deli,85,5.0,$,37.267938620038,-107.00997348135,Pagosa Springs,CO
+The Peak Deli,86,5.0,$,37.267938620038,-107.00997348135,Pagosa Springs,CO
 Tutti Scoops,6,4.5,$,37.1693281,-104.5059804,Trinidad,CO
 Dairy Queen,3,2.0,$$,36.626,-102.37785,Boise City,OK
 Braum's,8,3.5,$,36.6974,-101.48365,Guymon,OK
@@ -210,7 +210,7 @@ Orange Leaf Frozen Yogurt,27,4.0,$,37.13696,-93.27287,Springfield,MO
 Kilwins,17,4.5,N/A,36.6554408,-93.2205205,Branson,MO
 Andy's Frozen Custard,13,4.5,$,37.1595271,-93.2728926,Springfield,MO
 Cakes & Creams,113,4.0,$,36.6390367365813,-93.2698709934277,Branson,MO
-Cherry Berry,15,4.5,$$,36.631198,-93.275428,Branson,MO
+Cherry Berry,16,4.5,$$,36.631198,-93.275428,Branson,MO
 Simply Yo Frozen Treats,10,4.5,$$,37.1490102,-93.2958559,Springfield,MO
 The Keeter Center,201,4.5,$$,36.6178699409541,-93.2382202148438,Point Lookout,MO
 Andy's Frozen Custard,18,4.5,$,37.1808049563277,-93.2316726930244,Springfield,MO
@@ -379,7 +379,7 @@ Froots,8,2.5,$,37.2345884253269,-77.3408110031245,Fort Lee,VA
 Huddle House,5,2.5,$,37.1846313,-77.4880676,Petersburg,VA
 Historic Beach Station,3,4.5,$,37.356411,-77.5954132,Chesterfield,VA
 Friendly's,31,2.5,$,37.355401,-77.412257,Chester,VA
-Dunkin' Donuts/Baskin Robbins,12,2.5,$,37.2609579563141,-77.3257510364056,Hopewell,VA
+Dunkin' Donuts/Baskin Robbins,13,2.5,$,37.2609579563141,-77.3257510364056,Hopewell,VA
 Dairy Queen,8,3.0,$,37.2602501,-77.3271484,Hopewell,VA
 Cold Stone Creamery,2,3.5,$$,37.4147911071777,-77.6395645141602,Midlothian,VA
 Bruster's,3,2.5,$,37.3549575805664,-77.4942626953125,Chester,VA
@@ -444,11 +444,11 @@ Kona Ice of North Marin,6,5.0,$,38.1008758544922,-122.577209472656,Novato,CA
 Loop Neighborhood,9,3.5,$,38.11173,-122.59359,Novato,CA
 Ice Queen,2,5.0,$,38.10133,-122.57817,Novato,CA
 Bay Area Ice Cream Catering,18,4.5,$$,37.2952537536621,-121.893371582031,San Jose,CA
-Meadowlark Dairy,876,4.5,$,37.66033,-121.87459,Pleasanton,CA
+Meadowlark Dairy,877,4.5,$,37.66033,-121.87459,Pleasanton,CA
 YERSEN Gelato Cakes,238,5.0,$,37.79814,-121.92304,Danville,CA
 The Mix Creamery,316,4.0,$,37.7043802396399,-121.911554932594,Dublin,CA
 Milk & Cookie Bar,325,4.5,$,37.70864,-122.09134,Castro Valley,CA
-O'Honey,137,4.0,$,37.7049564521021,-121.851537924141,Dublin,CA
+O'Honey,138,4.0,$,37.7049564521021,-121.851537924141,Dublin,CA
 ICICLES,143,4.0,$$,37.661346,-121.87506,Pleasanton,CA
 Loard's Ice Cream,114,4.0,$,37.679497,-121.772372,Livermore,CA
 Lottie's Creamery,438,4.5,$$,37.8995054215193,-122.060791030526,Walnut Creek,CA
@@ -457,7 +457,7 @@ Callahan's Coffee & Cones,39,5.0,$,37.9040899,-121.60383,Discovery Bay,CA
 Blush Organic Frozen Yogurt,586,4.0,$,37.70801,-121.8731,Dublin,CA
 Clancy's Ice Cream Parlour,493,4.5,$,37.6910591125488,-122.15266418457,San Leandro,CA
 Almare Gelato Italiano,52,4.5,$,37.6587961409171,-121.87706114671,Pleasanton,CA
-John's Ice Cream,233,4.5,$,37.96199,-121.72963,Brentwood,CA
+John's Ice Cream,234,4.5,$,37.96199,-121.72963,Brentwood,CA
 Menchie's  Frozen Yogurt,74,4.0,$,37.7037210589332,-121.851480491459,Dublin,CA
 Charlotte's,141,4.5,$,37.6731406,-122.081648,Hayward,CA
 Menchie's Frozen Yogurt,85,4.0,$,37.6783516,-121.7841207,Livermore,CA
@@ -466,13 +466,13 @@ Yogurt Shack,139,4.0,$,37.8229,-122.00071,Danville,CA
 Niles Ice Cream Sweets & Eats,225,4.5,$,37.5763481395386,-121.977000407503,Fremont,CA
 Loard's Ice Cream,43,4.0,$,37.7222832,-121.9419163,Dublin,CA
 Yogurtland,169,4.0,$,37.70584,-121.92709,Dublin,CA
-Guanatos Ice Cream,267,4.5,$,37.92751,-122.04015,Walnut Creek,CA
+Guanatos Ice Cream,268,4.5,$,37.92751,-122.04015,Walnut Creek,CA
 The Olde San Francisco Creamery,1028,4.0,$$,37.8985745196481,-122.061833700321,Walnut Creek,CA
 Crafts Creamery,287,3.5,$$,37.8226013,-122.0021286,Danville,CA
 Yogurtland,251,4.0,$,37.7624177187681,-121.960900202394,San Ramon,CA
 iYogurt,100,4.5,$,37.96195,-121.73213,Brentwood,CA
 Cool Spot,30,4.5,$,37.92592,-121.75318,Brentwood,CA
-Tin Pot Creamery,800,4.5,$$,37.4386874437777,-122.158960132263,Palo Alto,CA
+Tin Pot Creamery,801,4.5,$$,37.4386874437777,-122.158960132263,Palo Alto,CA
 MAYAS Ice Cream,68,4.0,$,37.9767103334468,-121.802721794206,Antioch,CA
 Menchie's Frozen Yogurt,263,4.5,$,37.5356905,-121.9986563,Fremont,CA
 Knudsen's Ice Creamery,607,4.0,$,37.6954324,-122.0780506,Castro Valley,CA
@@ -487,7 +487,7 @@ Milkcow,847,3.5,$,37.50466,-121.97634,Fremont,CA
 1st Treat Yogurt,127,3.5,$,37.681125,-121.76957,Livermore,CA
 Milkcow,162,3.5,$,37.69529,-122.07956,Castro Valley,CA
 ICICLES,205,4.0,$$,37.52314,-122.00792,Newark,CA
-Loard's of Concord,113,4.5,$,37.97802734375,-122.034370422363,Concord,CA
+Loard's of Concord,114,4.0,$,37.97802734375,-122.034370422363,Concord,CA
 Yogurtland,163,4.5,$,37.5480147,-121.988993,Fremont,CA
 Sweet Mex,104,4.5,$,37.586225709283,-122.019305102636,Union City,CA
 Blush Organic Frozen Yogurt,27,4.0,$,37.66265520211,-121.856725795373,Pleasanton,CA
@@ -550,7 +550,7 @@ Good Earth Yogurt,55,4.5,$$,37.3626847300497,-118.395525189745,Bishop,CA
 Antojitos Hipocampus,11,5.0,$,37.3647404931456,-118.396461963966,Bishop,CA
 Marv's Drive Inn,14,4.5,$,37.5734751,-113.7104176,Enterprise,UT
 Affogato,3,5.0,$,37.10683,-113.59266,St. George,UT
-Palette Creamery,23,4.5,$,37.6816095671891,-113.061876816916,Cedar City,UT
+Palette Creamery,24,4.5,$,37.6816095671891,-113.061876816916,Cedar City,UT
 Hermie's Drive-In,58,4.5,$,37.6824662795416,-113.061382356913,Cedar City,UT
 Rock Stop,27,5.0,$,37.27206,-112.6475,Orderville,UT
 Sub Zero Ice Cream & Yogurt - Cedar City,15,4.0,$$,37.6529144809713,-113.085582815871,Cedar City,UT
@@ -565,7 +565,7 @@ Green Table Cafe,1,5.0,N/A,37.34697,-108.29209,Mancos,CO
 Baskin-Robbins,2,2.5,N/A,37.2737219184637,-107.882021963596,Durango,CO
 Dairy Queen,3,3.0,$,37.348316192627,-108.57063293457,Cortez,CO
 PS Fro Yo,8,4.5,$,37.26728,-107.01209,Pagosa Springs,CO
-The Peak Deli,85,5.0,$,37.267938620038,-107.00997348135,Pagosa Springs,CO
+The Peak Deli,86,5.0,$,37.267938620038,-107.00997348135,Pagosa Springs,CO
 San Juan Soda Company,15,4.5,$$,38.0287555965793,-107.317431713218,Lake City,CO
 Dairy Queen,6,3.0,$,37.5805887579918,-106.149294152856,Monte Vista,CO
 Charlie's Market,4,5.0,N/A,37.508473,-105.009361,La Veta,CO
@@ -573,7 +573,7 @@ Goody Shop,1,4.0,N/A,37.5793482363224,-101.358008533716,Ulysses,KS
 Freddy's Frozen Custard & Steakburgers,3,4.5,$,37.7540036290884,-100.038159862161,Dodge City,KS
 Cold Stone Creamery,1,4.0,N/A,37.7695363014936,-100.016450732946,Dodge City,KS
 Green Bean Coffee Co,6,3.5,$,37.76406,-100.03298,Dodge City,KS
-Bogey's,44,4.0,$,38.0733,-97.9216,Hutchinson,KS
+Bogey's,45,4.0,$,38.0733,-97.9216,Hutchinson,KS
 Freddy's Frozen Custard & Steakburgers,12,4.0,$,38.0718421936035,-97.9018936157227,Hutchinson,KS
 Braum's Ice Cream & Dairy Store,4,4.0,$$,38.0846207588911,-97.9320169240236,Hutchinson,KS
 Dairy Queen,2,4.5,$,38.05638,-97.93098,Hutchinson,KS
@@ -601,7 +601,7 @@ Dairy Queen,4,4.0,$,37.495698,-94.301648,Lamar,MO
 Dairy Queen,3,2.5,N/A,37.83834,-94.35104,Nevada,MO
 Sweet Designs Cakery,3,3.5,$$,37.4105262756348,-94.7052993774414,Pittsburg,KS
 Freddy's Frozen Custard & Steakburgers,6,4.5,$,37.3950497,-94.7053406,Pittsburg,KS
-Sugarfoot BBQ,52,4.5,$,38.041433206383,-93.6777182912015,Osceola,MO
+Sugarfoot BBQ,51,4.5,$,38.041433206383,-93.6777182912015,Osceola,MO
 3 G's Frozen Custard,4,4.0,$$$,37.6141372025415,-93.411296521743,Bolivar,MO
 Sundaes Fast Food,2,4.5,$,37.6881587505341,-93.7977471202612,Stockton,MO
 Dairy Queen,2,2.0,$,37.6038227939217,-93.4056747370476,Bolivar,MO
@@ -896,7 +896,7 @@ Chesapeake Bay Farms,13,5.0,$,38.12265381217,-75.5330959707499,Pocomoke City,MD
 Hurdy Gurdy Yogurt,3,3.0,$$$,37.932195,-75.3625126,Chincoteague Island,VA
 Olde Town Candy Company,3,4.5,$$$,38.17772,-75.39374,Snow Hill,MD
 Baskin-Robbins,1,4.0,N/A,38.0632643401623,-75.5488841235638,Pocomoke City,MD
-Wicked Slush,102,4.5,$,38.60398,-122.85768,Healdsburg,CA
+Wicked Slush,103,4.5,$,38.60398,-122.85768,Healdsburg,CA
 Noble Folk Ice Cream And Pie Bar,252,4.5,$$,38.6104296147823,-122.869831100106,Healdsburg,CA
 Captain Davey's Ice Cream & Espresso,79,4.5,$,38.324445,-123.039153,Bodega Bay,CA
 Nimble & Finn's,59,4.5,$$,38.5022201538086,-122.998649597168,Guerneville,CA
@@ -949,7 +949,7 @@ Scoops,4,3.5,$,38.3607940673828,-122.723304748535,Santa Rosa,CA
 The Good Scoop,220,4.5,$$,38.543493,-121.738612,Davis,CA
 Sweet and Shavery,237,4.5,$,38.5435066,-121.7411137,Davis,CA
 Davis Creamery,123,4.0,$,38.5421258211136,-121.740818917751,Davis,CA
-Baja Cream,67,4.5,$,38.2494720877764,-122.045646943152,Fairfield,CA
+Baja Cream,68,4.5,$,38.2494720877764,-122.045646943152,Fairfield,CA
 Peace Love & Boba,277,4.0,$,38.3353873467452,-121.954629868269,Vacaville,CA
 Yoloberry Yogurt,287,4.0,$,38.5447883605957,-121.743446350098,Davis,CA
 Big Kahuna Yogurt,36,4.5,$,38.6635274,-121.740038,Woodland,CA
@@ -967,7 +967,7 @@ Dulce Vida,12,4.5,$,38.6792068481445,-121.784446716309,Woodland,CA
 Yogurtagogo,412,4.0,$,38.57544,-121.48267,Sacramento,CA
 Jungle Yogurt,50,4.0,$,38.3571013,-122.0047384,Vacaville,CA
 Little Knopp's Bakery,40,4.5,$,38.2456952844576,-122.099698659312,Fairfield,CA
-8 Fahrenheit Ice Cream,97,4.0,$,38.5350227355957,-121.494300842285,Sacramento,CA
+8 Fahrenheit Ice Cream,98,4.0,$,38.5350227355957,-121.494300842285,Sacramento,CA
 It's It Ice Cream Outlet,67,4.5,$,38.24271,-122.04094,Suisun City,CA
 Chango Chamoy,12,4.5,$,38.2631215309331,-122.033888828428,Fairfield,CA
 Big Kahuna Yogurt,83,4.5,$,38.5507351957521,-121.538567200589,W Sacramento,CA
@@ -975,7 +975,7 @@ Devil May Care,78,5.0,$,38.5878203291738,-121.510389013616,West Sacramento,CA
 Sweets & Sugars ice cream,178,4.0,$,38.5491612942089,-121.489118382252,Sacramento,CA
 HeavenLy's Yogurt,94,4.0,$,38.481426036877,-121.517693729568,Sacramento,CA
 Danny's Mini Donuts,243,4.5,$,38.5841784,-121.5038582,Sacramento,CA
-Vic's Ice Cream,313,4.0,$,38.550152970848,-121.505687087774,Sacramento,CA
+Vic's Ice Cream,314,4.0,$,38.550152970848,-121.505687087774,Sacramento,CA
 Mel's Mocha & Ice Cream,48,4.0,$,38.242374882102,-121.513818874955,Walnut Grove,CA
 Yogurt Garden,56,4.0,$,38.6428651,-121.5333909,Sacramento,CA
 Cold Stone Creamery,70,4.0,$,38.6610722,-121.5112434,Sacramento,CA
@@ -1036,7 +1036,7 @@ Rocky Mountain Chocolate Factory,2,4.5,$$,38.8695,-106.98521,Crested Butte,CO
 Here's the Scoop,17,4.5,$,38.5350129,-105.992821,Salida,CO
 Louie's Ice Cream Shoppe,85,5.0,$,38.8432388,-106.1285706,Buena Vista,CO
 Simple Eatery & Spoon It Up,171,4.5,$$,38.84312,-106.12898,Buena Vista,CO
-Colorado I Scream & Stuff,10,3.0,$,38.5187094658613,-106.078273281455,Salida,CO
+Colorado I Scream & Stuff,9,3.0,$,38.5187094658613,-106.078273281455,Salida,CO
 K's Dairy Delite,74,3.5,$,38.840154880187,-106.13168871246,Buena Vista,CO
 Josh & John's Naturally Homemade Ice Creams,211,4.5,$,38.8336971,-104.8230073,Colorado Springs,CO
 Swirly Cow Frozen Yogurt,13,4.5,$,38.7664508073576,-104.814682518634,Colorado Springs,CO
@@ -1083,7 +1083,7 @@ Freddy's Frozen Custard & Steakburgers,44,3.5,$,38.89522,-99.31858,Hays,KS
 Vernie's Hamburger House,7,4.5,$,38.873469,-99.3182468,Hays,KS
 Braum's,5,3.0,$,38.36166,-98.79453,Great Bend,KS
 Dairy Queen,3,1.0,N/A,38.884952545166,-99.3096923828125,Hays,KS
-Bogey's,44,4.0,$,38.0733,-97.9216,Hutchinson,KS
+Bogey's,45,4.0,$,38.0733,-97.9216,Hutchinson,KS
 Freddy's Frozen Custard & Steakburgers,12,4.0,$,38.0718421936035,-97.9018936157227,Hutchinson,KS
 City Sundries,1,5.0,$,38.5535926818848,-97.8334655761719,Marquette,KS
 Braum's Ice Cream & Dairy Store,4,4.0,$$,38.0846207588911,-97.9320169240236,Hutchinson,KS
@@ -1119,7 +1119,7 @@ Freddy's Frozen Custard & Steakburgers,14,3.0,$,38.8543663024902,-94.80564117431
 Smallcakes,3,3.0,$,38.8889102344464,-94.6061115046158,Kansas City,KS
 Baskin-Robbins,4,2.5,$,38.905009,-94.380718,Lees Summit,MO
 Russell Stover Chocolates,2,4.5,$,38.6400032043457,-94.3527221679688,Harrisonville,MO
-Sugarfoot BBQ,52,4.5,$,38.041433206383,-93.6777182912015,Osceola,MO
+Sugarfoot BBQ,51,4.5,$,38.041433206383,-93.6777182912015,Osceola,MO
 Russell Stover Chocolates,2,4.5,$,38.70261,-93.24995,Sedalia,MO
 Orange Leaf Frozen Yogurt,6,4.0,$,38.778720125556,-93.7354259938002,Warrensburg,MO
 DQ Warrensburg,4,3.0,$,38.7718162536621,-93.7230224609375,Warrensburg,MO
@@ -1366,7 +1366,7 @@ Dairy Queen,3,2.5,N/A,38.8925101608038,-79.8464769870043,Elkins,WV
 Kline's Dairy Bar,80,4.5,$,38.4515609741211,-78.8672027587891,Harrisonburg,VA
 Bruster's Real Ice Cream,12,4.5,$,38.43009,-78.84978,Harrisonburg,VA
 The Split Banana,98,4.5,$,38.149533564529,-79.0728688985109,Staunton,VA
-Kline's Dairy Bar,16,4.0,$,38.4197273254395,-78.8950424194336,Harrisonburg,VA
+Kline's Dairy Bar,17,4.0,$,38.4197273254395,-78.8950424194336,Harrisonburg,VA
 Flotzie's Soft Serve,15,4.0,$,38.6621055603027,-78.491455078125,Luray,VA
 Pack's Frozen Custard,18,4.0,$,38.6498587578535,-78.6653830111027,New Market,VA
 Grammies Ice Cream,3,4.0,$,38.3865967437937,-78.7026804685593,Elkton,VA
@@ -1505,7 +1505,7 @@ The Ice Cream Store,139,4.0,$,38.716232998955,-75.076518398322,Rehoboth Beach,DE
 Maureen's Ice Cream & Desserts,34,4.0,$$,38.53872,-75.05494,Bethany Beach,DE
 Kohr Brothers,18,4.0,$$$,38.5385418649634,-75.0554049924525,Bethany Beach,DE
 Haha's Frozen Yogurt,24,4.5,$,38.45399,-75.05265,Fenwick Island,DE
-Vanderwendes,23,4.5,$,38.6946729116729,-75.0747308225354,Dewey Beach,DE
+Vanderwendes,24,4.5,$,38.6946729116729,-75.0747308225354,Dewey Beach,DE
 Dumser's Dairyland,125,3.5,$,38.374848,-75.070075,Ocean City,MD
 Kohr Bros,23,4.5,$$,38.33044,-75.08571,Ocean City,MD
 Sweet Frog Premium Frozen Yogurt,9,4.5,$$,38.4170616,-75.5649462,Salisbury,MD
@@ -1564,7 +1564,7 @@ Johnny's Yogurt & Ice Cream,4,4.5,$,39.36002,-121.68728,Gridley,CA
 California Yogurt,12,4.0,$,39.1470446933613,-121.646100723755,Yuba City,CA
 Hey Hey Ice Cream,48,4.0,$,39.1411743164062,-121.631645202637,Yuba City,CA
 Jeff's Freezette,54,4.0,$,39.20964,-122.01729,Colusa,CA
-Cupcake Magic,121,4.0,$,39.13819,-121.61702,Yuba City,CA
+Cupcake Magic,120,4.0,$,39.13819,-121.61702,Yuba City,CA
 La Chinita,4,5.0,$,39.127525,-121.608421,Yuba City,CA
 Neveria La Guadalupana,8,4.0,$,39.1443297173854,-121.633606634008,Yuba City,CA
 Baskin Robbins,14,3.5,$$,39.14203,-121.62985,Yuba City,CA
@@ -1646,7 +1646,7 @@ KZ's Sodaz,1,4.0,$,39.2652468929176,-111.63596291095,Manti,UT
 T-Cee's Dari Frez,3,2.5,$,39.6243334561586,-111.439191699028,Fairview,UT
 Cold Stone Creamery,2,1.5,$,39.599845,-110.793342,Price,UT
 Graff Dairy,15,4.0,$,39.08855,-108.51566,Grand Junction,CO
-Enstrom Candies,50,4.5,$$,39.065815010742,-108.560241395603,Grand Junction,CO
+Enstrom Candies,51,4.5,$$,39.065815010742,-108.560241395603,Grand Junction,CO
 Yogo Mojo Frozen Yogurt,15,4.0,$,39.077457,-108.556584,Grand Junction,CO
 Gelato Junction,39,3.5,$,39.067,-108.56489,Grand Junction,CO
 U Top It Frozen Yogurt,5,4.5,$,39.0388144528346,-108.535731956363,Grand Junction,CO
@@ -1667,7 +1667,7 @@ Grand Avenue Sweets,2,4.5,$,39.54719,-107.3250599,Glenwood Springs,CO
 Rocky Mountain Chocolate Factory,2,4.5,$$,38.8695,-106.98521,Crested Butte,CO
 Dq Grill & Chill,8,2.5,$,39.5597839355469,-107.362777709961,Glenwood Springs,CO
 Louie's Ice Cream Shoppe,85,5.0,$,38.8432388,-106.1285706,Buena Vista,CO
-Clint's Bakery and Coffee,193,3.5,$,39.48097,-106.04646,Breckenridge,CO
+Clint's Bakery and Coffee,194,3.5,$,39.48097,-106.04646,Breckenridge,CO
 Simple Eatery & Spoon It Up,171,4.5,$$,38.84312,-106.12898,Buena Vista,CO
 Foote's Rest Sweet Shoppe & Eatery,74,4.5,$,39.5761053264141,-106.096177026629,Frisco,CO
 Silver Scoop Creamery,11,4.0,$,39.22441,-106.00257,Fairplay,CO
@@ -2016,7 +2016,7 @@ Shake Shoppe,3,3.5,N/A,38.75506,-82.9333,Portsmouth,OH
 Whit's Frozen Custard,21,4.0,$,39.3276405,-82.1014862,Athens,OH
 Larry's Dawg House,18,4.5,$,39.3310527053437,-82.120453119278,Athens,OH
 Mario's Super Froyo,1,5.0,$,39.3360405,-82.0571976,Athens,OH
-Ginger Asian Kitchen,29,3.0,$,39.3282725,-82.1012933,Athens,OH
+Ginger Asian Kitchen,30,3.0,$,39.3282725,-82.1012933,Athens,OH
 Dairy Queen,2,4.0,N/A,39.3605098253159,-82.0986089455078,Athens,OH
 Hocking Hills Frozen Yogurt,3,3.5,$$,39.5400768800161,-82.4066182711638,Logan,OH
 Treehouse Treats and Treasures,1,3.0,$,39.5417416,-82.4377027,Logan,OH
@@ -2090,8 +2090,8 @@ Sweet Berry,191,4.0,$,38.842199025526,-77.270253049706,Fairfax,VA
 Ciao Gelato,21,4.5,$$,38.8368934348291,-77.4373935701794,Centreville,VA
 Menchie's,16,4.5,$$,39.448749,-77.393775,Frederick,MD
 Sweet Frog Premium Frozen Yogurt,20,4.0,$,38.97852,-77.35043,Reston,VA
-Bears Soft Serve,13,4.5,$,38.862789,-77.86084,Marshall,VA
 Sweet Frog Premium Frozen Yogurt,37,4.0,$,39.03599,-77.41061,Sterling,VA
+Bears Soft Serve,13,4.5,$,38.862789,-77.86084,Marshall,VA
 Milkberry Yogurt & Bubble Tea,31,4.0,$,38.817081763232,-77.6445832237978,Haymarket,VA
 Scoopalicious,15,5.0,$,39.6126213,-77.7835312,Williamsport,MD
 Sweet Frog Premium Frozen Yogurt,112,4.0,$,38.8807,-77.39842,Fairfax,VA
@@ -2319,7 +2319,7 @@ Baskin-Robbins 31 Flavors,6,2.0,$,39.554211553942,-119.78280182157,Reno,NV
 Dippin' Dots,1,5.0,$$,39.4759971528382,-119.785401531799,Reno,NV
 Brain Freeze Ice Cream,1,5.0,N/A,39.53977,-119.75407,Sparks,NV
 Temptations,7,3.5,$,40.177424,-118.477064,Lovelock,NV
-Rowley's Red Barn,28,4.5,$$,39.9608107,-111.7954174,Santaquin,UT
+Rowley's Red Barn,29,4.5,$$,39.9608107,-111.7954174,Santaquin,UT
 Eli's Old Fashioned Ice Cream & Soda Shop,17,4.5,$,40.0434672135569,-111.732188856359,Payson,UT
 Rockwell Ice Cream Co,145,4.5,$,40.2342853187575,-111.658887314155,Provo,UT
 Roll With It Creamery,57,3.5,$,40.2341,-111.65756,Provo,UT
@@ -2364,7 +2364,7 @@ Charlie's Frozen Treat Shop,11,4.5,$$,39.91719,-105.7844,Winter Park,CO
 Foote's Rest Sweet Shoppe & Eatery,74,4.5,$,39.5761053264141,-106.096177026629,Frisco,CO
 Higgles Ice Cream,26,4.5,$,39.63111,-106.073164,Silverthorne,CO
 Cameez Frozen Yogurt,10,5.0,$,39.6288,-106.04458,Dillon,CO
-Clint's Bakery and Coffee,193,3.5,$,39.48097,-106.04646,Breckenridge,CO
+Clint's Bakery and Coffee,194,3.5,$,39.48097,-106.04646,Breckenridge,CO
 Lion Head Coffee,21,4.5,$,40.085440011096,-105.9406271,Granby,CO
 Lewis Sweet Shop,46,4.5,$,39.7603636,-105.6806099,Empire,CO
 Dairy King,7,4.0,$,40.252846,-105.824722,Grand Lake,CO
@@ -2378,13 +2378,13 @@ Higgles Ice Cream,4,4.0,$,39.4833449,-106.0459393,Breckenridge,CO
 End of the Line,8,3.5,$,39.7059288024902,-105.69645690918,Georgetown,CO
 Oh Fudge Sweet Nuts Ice Cream,4,2.0,$,39.4810740300438,-106.046075358945,Breckenridge,CO
 Stir-Pan Creamery,5,5.0,N/A,39.5756297636367,-106.09993855194,Frisco,CO
-Little Man Ice Cream,1348,4.5,$,39.7597550246776,-105.011248591142,Denver,CO
+Little Man Ice Cream,1349,4.5,$,39.7597550246776,-105.011248591142,Denver,CO
 Sweet Cow,327,4.5,$,39.76236,-105.03384,Denver,CO
 Nuggs Ice Cream,172,4.5,$,39.7406019945942,-104.927745092741,Denver,CO
 High Point Creamery,244,4.5,$,39.7127678,-104.9222993,Denver,CO
 Sweet Cow,203,4.5,$,39.9765299,-105.13115,Louisville,CO
 Sweet Action Ice Cream,812,4.5,$,39.7174453735352,-104.987106323242,Denver,CO
-Sweet Cooie's,103,4.5,$,39.7349,-104.9458499,Denver,CO
+Sweet Cooie's,104,4.5,$,39.7349,-104.9458499,Denver,CO
 Sweet Cow,98,4.5,$,39.6823190136024,-104.980300815436,Denver,CO
 Liks Ice Cream,346,4.5,$,39.737,-104.9626,Denver,CO
 Milkroll Rolled Ice Cream,38,4.5,$$,39.7400213608536,-104.945864113218,Denver,CO
@@ -2417,13 +2417,13 @@ Glacier Homemade Ice Cream & Gelato,20,4.0,$,39.6265357,-104.8850651,Greenwood V
 Glacier Home-made Ice Cream & Gelato,18,4.0,$$,39.7207412719727,-104.902557373047,Denver,CO
 Imagirifik,26,4.5,$,39.6250305175781,-104.793258666992,Centennial,CO
 Pinkberry,168,4.0,$,39.69664,-104.94042,Glendale,CO
-Whit's Frozen Custard,16,4.0,$,39.77149,-105.04369,Denver,CO
+Whit's Frozen Custard,17,4.0,$,39.77149,-105.04369,Denver,CO
 Butterfield's Ice Cream,47,4.5,$$,39.4788540762623,-104.758919858273,Parker,CO
 Yogurtland,45,4.0,$,39.8407044,-105.0835633,Arvada,CO
 Spinellis South Bakery,37,4.0,$,39.7509299,-104.93309,Denver,CO
 Em's Ice Cream,37,4.5,$,39.747062,-104.994128,Denver,CO
 Chill Yogurt,30,4.0,$,39.675594,-104.848103,Aurora,CO
-Ben & Jerrys,22,3.5,$$,39.8585609665044,-104.673729797559,Northeast Denver,CO
+Ben & Jerrys,23,3.0,$$,39.8585609665044,-104.673729797559,Northeast Denver,CO
 High Point Creamery,17,4.0,$,39.7594833374023,-104.984649658203,Denver,CO
 Swirls Frozen Yogurt,46,4.5,$,39.5183637972143,-104.760454619442,Parker,CO
 It's All Peachy,39,4.0,$,39.6033593113809,-104.806415867948,Centennial,CO
@@ -2707,7 +2707,7 @@ Insomnia Cookies,10,4.0,$$,39.6395908122015,-79.955848934027,Morgantown,WV
 Dairy Creme Corner,16,4.5,$,39.4752543,-80.122649,Fairmont,WV
 New Haven Trailside Treats,3,4.5,$$,40.0172314792871,-79.5949474722147,Connellsville,PA
 Sweet Frog Premium Frozen Yogurt,6,4.5,$$,40.2127049464894,-80.1929003745317,Washington,PA
-SweetPies Eatery,3,4.5,N/A,39.8973960876465,-79.7300109863281,Uniontown,PA
+SweetPies Eatery,4,5.0,N/A,39.8973960876465,-79.7300109863281,Uniontown,PA
 Suzy's Frozen Custard,6,4.5,$,40.1359037590448,-79.5485740545532,Mount Pleasant,PA
 Sweet Frog Premium Frozen Yogurt,13,3.0,$,39.650502012554,-80.001369206492,Morgantown,WV
 Cold Stone Creamery,2,4.5,$$,39.6303267,-79.9552407,Morgantown,WV
@@ -2833,7 +2833,7 @@ Jaymee Lee's Diner,8,4.5,$,40.172724,-77.399127,Newville,PA
 Yogi Castle,36,3.5,$,39.445324,-77.397148,Frederick,MD
 Uncle louie G's Italian Ice & Ice Cream,1,5.0,N/A,39.6415062,-77.7188568,Hagerstown,MD
 Dunkin' Donuts & Baskin-Robbins,9,1.5,$,39.6249345,-77.698017,Hagerstown,MD
-Cold Stone Creamery,3,4.5,$$,39.4492858,-77.3837868,Frederick,MD
+Cold Stone Creamery,2,4.0,$$,39.4492858,-77.3837868,Frederick,MD
 Cold Stone Creamery,1,4.0,N/A,39.6148540326681,-77.6908653217537,Hagerstown,MD
 Sweetsies Eats and Treats,3,5.0,N/A,39.656883,-77.852129,Clear Spring,MD
 Brown's Tropical Treats,1,4.0,N/A,39.63454,-77.71069,Hagerstown,MD
@@ -2848,7 +2848,7 @@ Kings Kreamery,7,5.0,$,40.0402029511819,-76.2267270221464,Lancaster,PA
 The Strasburg Country Store & Creamery,54,4.0,$,39.98315,-76.17851,Strasburg,PA
 Broom's Bloom Dairy,233,4.5,$,39.512512081315,-76.27863775049,Bel Air,MD
 Lancaster Sweet Shoppe,13,5.0,$$,40.0409125797276,-76.3039910522229,Lancaster,PA
-Fox Meadows Creamery & Country Market,56,4.5,$,40.2191169616692,-76.2557343074097,Ephrata,PA
+Fox Meadows Creamery & Country Market,57,4.5,$,40.2191169616692,-76.2557343074097,Ephrata,PA
 Pine View Dairy,23,4.0,$$,39.9696851277655,-76.3220407379548,Lancaster,PA
 Penny's Ice Cream Truck,14,5.0,$,40.0402145,-76.3083801,Lancaster,PA
 Little Dipper's Ice Cream,7,4.5,$,40.11221,-76.51509,Mount Joy,PA
@@ -2873,7 +2873,7 @@ Sweet Dawgs Frozen Yogurt,12,5.0,$,40.2661,-76.69857,Hummelstown,PA
 Greco's Italian Ices & Homemade Ice Cream,24,4.5,$,40.1589699,-76.30717,Lititz,PA
 Freezy Barn,6,4.5,$,39.8708975315094,-76.2259789556265,Quarryville,PA
 Prigel Family Creamery,46,4.0,$,39.4715993367122,-76.5079092979431,Glen Arm,MD
-Katie's Kitchen,117,4.0,$,40.00546,-76.18678,Strasburg,PA
+Katie's Kitchen,118,4.0,$,40.00546,-76.18678,Strasburg,PA
 Oregon Dairy Ice Cream Shop,5,4.0,$,40.1062158597842,-76.2554440680834,Lititz,PA
 The Cow,70,4.5,$,39.46421,-76.8286,Reisterstown,MD
 The Udder Choice,43,4.0,$,40.2054595947266,-76.2168121337891,Ephrata,PA
@@ -2908,7 +2908,7 @@ Chillings and Chocolate,39,4.5,$,39.96783,-75.289108,Upper Darby,PA
 Koffmeyer's,33,4.0,$,39.97873,-75.30376,Havertown,PA
 Capogiro Gelato,510,4.5,$$,39.9514079,-75.1734251,Philadelphia,PA
 Capogiro Gelato,761,4.5,$$,39.949881379941,-75.161809022194,Philadelphia,PA
-Scoops 'N' Smiles Ice Cream & Water Ice,23,4.5,$,40.0374433969433,-75.5096202961553,Malvern,PA
+Scoops 'N' Smiles Ice Cream & Water Ice,24,5.0,$,40.0374433969433,-75.5096202961553,Malvern,PA
 Sweet Lucy's,26,4.5,$,39.8005676269531,-75.5475921630859,Wilmington,DE
 Lil' Pop Shop & Cafe,66,4.5,$,39.9496388326947,-75.1739397538308,Philadelphia,PA
 D'Ascenzo's Gelato,66,5.0,$$,39.96121,-75.60281,West Chester,PA
@@ -2917,7 +2917,7 @@ Sprinkles Ice Cream Shoppe,62,4.5,$,40.0814348459244,-75.1173280924559,Elkins Pa
 Cocco's Gelateria,27,4.5,$,39.919887,-75.298439,Aldan,PA
 Zsa's Gourmet Ice Cream,20,5.0,$,40.0288905,-75.226028,Philadelphia,PA
 Roly Cow Creamery,36,4.5,$$,39.9289646128427,-75.1642912253737,Philadelphia,PA
-Beiler's Donuts,70,4.5,$,39.9552,-75.19995,Philadelphia,PA
+Beiler's Donuts,71,4.5,$,39.9552,-75.19995,Philadelphia,PA
 Zwahlen's Ice Cream & Chocolate,122,4.5,$,40.1283457090399,-75.4055865337512,Audubon,PA
 Scrumptious,212,4.0,$,39.75876,-75.56272,Wilmington,DE
 Petrucci's Ice Cream & Water Ice,38,4.5,$,40.1086654663086,-75.3724517822266,King of Prussia,PA
@@ -2942,7 +2942,7 @@ IceMax,55,4.0,$,39.9413100055998,-75.1474743799824,Philadelphia,PA
 Richman's Ice Cream,27,4.0,$,39.8805206806813,-75.3043460628446,Prospect Park,PA
 Dati's Homemade Water Ice & Ice Cream,24,5.0,$,39.9228822,-75.1844549,Philadelphia,PA
 Hoffman's Ice Cream,145,4.5,$,40.088611151481,-74.0491443586993,Point Pleasant Beach,NJ
-Cookman Creamery,127,4.5,$,40.21602,-74.01245,Asbury Park,NJ
+Cookman Creamery,128,4.5,$,40.21602,-74.01245,Asbury Park,NJ
 Skipper Dipper,102,4.5,$,39.6040597510092,-74.2096745967865,Long Beach Township,NJ
 Big Dipper Ice Cream,32,4.0,$,39.664506476631,-74.1640752950059,Surf City,NJ
 Hoffman's Ice Cream,97,4.5,$,40.1585884,-74.0350571,Spring Lake,NJ
@@ -2990,7 +2990,7 @@ The Sprinkle Shack,6,4.0,$$,39.8743977,-74.1669467,Bayville,NJ
 Kohr's Original,8,4.0,$,39.974193600666,-74.068118312386,Lavallette,NJ
 The Cone Zone,15,4.5,$,40.206732,-74.043581,Neptune,NJ
 Tooties Ice Cream Bar,9,4.0,$$,40.066936,-74.532395,Plumsted Township,NJ
-Ryan's Homemade Ice Cream,26,4.5,$$,40.3350654,-74.0744066,Shrewsbury,NJ
+Ryan's Homemade Ice Cream,27,4.5,$$,40.3350654,-74.0744066,Shrewsbury,NJ
 Living the Dream Ice Cream,112,4.0,$,40.80567,-124.16666,Old Town Eureka,CA
 Arcata Scoop,213,4.5,$,40.8705139160156,-124.08716583252,Arcata,CA
 Redwood Yogurt,58,4.5,$,40.8741007000208,-124.083851873875,Arcata,CA
@@ -3428,7 +3428,7 @@ Dairy Jean,1,3.0,N/A,40.1699714660645,-80.8688049316406,Adena,OH
 Dairy Queen,1,5.0,$$,41.0228691,-80.7600632,Canfield,OH
 Dairy Queen,3,3.5,$,41.03656,-80.6633,Youngstown,OH
 Chris's Ice Cream Treats,1,4.0,N/A,41.3061447143555,-81.4232177734375,Twinsburg,OH
-Millie's Homemade Ice Cream,222,4.5,$,40.4578599,-79.9254799,Pittsburgh,PA
+Millie's Homemade Ice Cream,223,4.5,$,40.4578599,-79.9254799,Pittsburgh,PA
 Icebox Creamery and Cafe,67,4.5,$,40.6857436,-80.1034486,Cranberry Township,PA
 Antney's,93,5.0,$,40.428073245585,-80.0540814180362,Pittsburgh,PA
 Churn,51,4.5,$,40.6170650553512,-79.9458296969533,Gibsonia,PA
@@ -3437,7 +3437,7 @@ Any Given Sundae,15,5.0,$,40.615102244546,-80.091348746496,Wexford,PA
 Graeter's Ice Cream,16,4.5,$$,40.611066,-80.053887,Wexford,PA
 The Meadows Original Frozen Custard,13,4.5,$,40.4347190856934,-79.750602722168,Monroeville,PA
 Menchie's Frozen Yogurt,12,4.5,$$,40.460411,-79.9228831,Pittsburgh,PA
-Millie's Homemade Ice Cream,15,4.5,$,40.4401974,-80.0015721,Pittsburgh,PA
+Millie's Homemade Ice Cream,16,4.5,$,40.4401974,-80.0015721,Pittsburgh,PA
 Glen's Frozen Custard,34,4.5,$,40.54101,-79.78822,Springdale,PA
 Dave & Andy's,229,4.5,$,40.4409118741751,-79.9573467671871,Pittsburgh,PA
 Kip's Ice Cream,24,5.0,$,40.50583,-80.2095499,Coraopolis,PA
@@ -3511,7 +3511,7 @@ Dairy Queen,2,3.0,N/A,40.4261523485184,-78.4443931281567,Duncansville,PA
 Baskin-Robbins,4,1.5,$,40.4860360175371,-78.3999314904213,Altoona,PA
 Krause's Soft Freeze,1,5.0,N/A,40.1545699685812,-79.073376506567,Boswell,PA
 Jennerstown Tasty Diner,1,4.0,$,40.163808837533,-79.0802644193172,Jennerstown,PA
-Penn State Berkey Creamery,278,4.5,$,40.8041457436026,-77.8620600700378,University Park,PA
+Penn State Berkey Creamery,279,4.5,$,40.8041457436026,-77.8620600700378,University Park,PA
 Meyer Dairy Store,80,4.0,$,40.783836885558,-77.827274127645,State College,PA
 Sweet Frog Premium Frozen Yogurt,16,4.5,$,40.8033501180999,-77.8858764097095,State College,PA
 Kiwi Frozen Yogurt,24,4.0,$,40.79691,-77.85774,State College,PA
@@ -3533,7 +3533,7 @@ Mini Freez,1,5.0,$,40.2731628417969,-77.8262939453125,Orbisonia,PA
 Dairy Queen,1,5.0,N/A,40.3939669109131,-77.8806635037767,Mount Union,PA
 Dairy Queen of Mount Union,3,1.5,N/A,40.3939095,-77.8810425,Mount Union,PA
 Dar's Diner,2,4.0,N/A,41.0538650896114,-77.3080209642649,Loganton,PA
-Fox Meadows Creamery & Country Market,56,4.5,$,40.2191169616692,-76.2557343074097,Ephrata,PA
+Fox Meadows Creamery & Country Market,57,4.5,$,40.2191169616692,-76.2557343074097,Ephrata,PA
 Freeze,5,5.0,$,40.6463925540447,-76.1381553858519,Schuylkill Haven,PA
 Brennan's Big Chill,10,5.0,$,41.0033255070448,-76.4547854661942,Bloomsburg,PA
 Sweet Dawgs Frozen Yogurt,12,5.0,$,40.2661,-76.69857,Hummelstown,PA
@@ -3624,9 +3624,9 @@ Sundae World,13,4.0,$$,40.2584120938054,-75.2653958949128,Lansdale,PA
 So Fun Yogurt Easton,10,3.5,$$$,40.7222826728315,-75.2858734130859,Easton,PA
 "Kelly's Ice Cream, LLC",24,4.0,$,40.93647,-75.10726,Mount Bethel,PA
 Nonno's Italian Coffee Parlor,67,4.0,$$,40.30993,-75.13011,Doylestown,PA
-Stations Cafe,38,3.5,$,40.6220024,-75.3821519,Bethlehem,PA
 yogurtree,17,4.5,$,40.2742721,-75.1272673,Doylestown,PA
 Petey's Eatey's,17,4.0,$,40.7801456004381,-75.2782566100359,Nazareth,PA
+Stations Cafe,38,3.5,$,40.6220024,-75.3821519,Bethlehem,PA
 The Hickory Stick,5,4.5,$$,40.3552719976372,-75.2633304961493,Perkasie,PA
 Llama Artisanal Ice Cream,17,5.0,$,40.999743,-75.131854,East Stroudsburg,PA
 The Ice Cream Lab,5,4.5,$$,40.7532043,-75.5923157,Walnutport,PA
@@ -3635,7 +3635,7 @@ Kool Licks,3,5.0,$,40.3559188842773,-75.3062591552734,Sellersville,PA
 The Bethlehem Parlour,20,3.0,$$,40.622909,-75.398117,Bethlehem,PA
 Vanilla Bean Creamery,86,4.5,$,40.6558744,-74.3049538,Cranford,NJ
 Last Licks Homemade Ice Cream,56,4.5,$,40.817519,-74.382863,East Hanover,NJ
-Absolute Zero Ice Cream,109,4.5,$,40.8129247489552,-74.216493382663,Montclair,NJ
+Absolute Zero Ice Cream,110,4.5,$,40.8129247489552,-74.216493382663,Montclair,NJ
 Beenie's Ice Cream,45,4.5,$$,40.79762,-74.47845,Morristown,NJ
 Nasto's Ice Cream Co,89,4.5,$,40.724341,-74.164517,Newark,NJ
 K's Brain Freeze,64,4.5,$,40.4296525336686,-74.2514472583941,Matawan,NJ
@@ -3647,26 +3647,26 @@ Bohemian Raspberry,39,4.5,$,40.649771000741,-74.34005743983,Westfield,NJ
 Magic Fountain,69,4.0,$,40.72533,-74.37237,Summit,NJ
 Zita's Homemade Ice Cream & Italian Ice,64,4.5,$,40.6956251710653,-74.4236089289188,New Providence,NJ
 Torico Ice Cream,532,4.5,$,40.7217019859288,-74.0441597389672,Jersey City,NJ
-Bucket & Bay Craft Gelato,315,4.5,$,40.7208162924477,-74.0401605478851,Jersey City,NJ
+Bucket & Bay Craft Gelato,316,4.5,$,40.7208162924477,-74.0401605478851,Jersey City,NJ
 Falls Creamery,51,4.5,$,40.88175,-74.22722,Little Falls,NJ
-Ample Hills Creamery,1135,4.5,$$,40.6785573557085,-73.9684746674535,Brooklyn,NY
-Ralph's Italian Ice's,117,4.5,$,40.63026,-74.139564,Staten Island,NY
+Ample Hills Creamery,1137,4.5,$$,40.6785573557085,-73.9684746674535,Brooklyn,NY
+Ralph's Italian Ice's,118,4.5,$,40.63026,-74.139564,Staten Island,NY
 Penguin Ice Cream,43,4.5,$,40.71743026954,-74.5713072394024,Bernardsville,NJ
-Stuffed Ice Cream,159,4.5,$,40.72805,-73.98538,New York,NY
+Stuffed Ice Cream,160,4.5,$,40.72805,-73.98538,New York,NY
 Thomas Sweet Ice Cream & Chocolate,128,4.5,$,40.4981340626531,-74.4492351562829,New Brunswick,NJ
 Ample Hills Creamery,257,4.5,$$,40.7623971864482,-73.997002321425,New York,NY
 Milk Sugar Love,259,4.5,$$,40.7278616050563,-74.0439687824463,Jersey City,NJ
-Soft Swerve,1067,4.5,$,40.718223312785,-73.9911489933729,New York,NY
+Soft Swerve,1069,4.5,$,40.718223312785,-73.9911489933729,New York,NY
 Ice Cream Charlies,88,4.0,$,40.82566,-74.10975,Rutherford,NJ
 What's the Scoop,81,4.0,$,40.54167,-74.36093,Metuchen,NJ
 Besfren,352,4.0,$$,40.746902,-73.985183,New York,NY
 Gelotti of Montclair,43,4.0,$,40.8157766336162,-74.2197979048283,Montclair,NJ
-Taiyaki NYC,1436,4.5,$,40.71789,-73.9988,New York,NY
+Taiyaki NYC,1437,4.5,$,40.71789,-73.9988,New York,NY
 Ice Cream by Mike,103,4.5,$,40.8833535944274,-74.0431497172383,Hackensack,NJ
 South Street Creamery Cafe,113,4.0,$,40.7930157,-74.4767458,Morristown,NJ
 Milk & Cream Cereal Bar,397,4.5,$$,40.71958,-73.99654,New York,NY
 Dairy Deluxe,53,4.5,$,40.50249,-74.42102,Highland Park,NJ
-Downtown Yogurt,150,4.5,$,40.7202135399946,-74.0430064490326,Jersey City,NJ
+Downtown Yogurt,151,4.5,$,40.7202135399946,-74.0430064490326,Jersey City,NJ
 Ice & Vice,584,4.5,$$,40.7142842719948,-73.9868737828033,New York,NY
 -321° Ice Cream Shop,339,4.0,$,40.7129,-73.95779,Brooklyn,NY
 Magnifico's Ice Cream,118,4.0,$,40.4412002563477,-74.3936309814453,East Brunswick,NJ
@@ -3676,12 +3676,12 @@ Snow & Cream,186,4.0,$,40.63603,-74.01294,Brooklyn,NY
 Egger's Ice Cream Parlor,108,3.5,$,40.6264429539442,-74.1295938938856,Staten Island,NY
 Angel's Recipe Ice Cream,41,4.5,$,40.7362405239138,-74.0299853703704,Hoboken,NJ
 Morano Gelato,37,4.5,$$,40.65212,-74.3486049,Westfield,NJ
-Van Leeuwen Artisan Ice Cream,293,4.5,$$,40.7344208102318,-74.0012722836729,New York,NY
+Van Leeuwen Artisan Ice Cream,294,4.5,$$,40.7344208102318,-74.0012722836729,New York,NY
 Pearl Gate,72,4.5,$,40.6679382,-73.9876175,New York,NY
 16 Handles,29,4.0,$,40.5255293480597,-74.4376596808434,Piscataway Township,NJ
 McCool's Ice Cream Parlour,51,4.0,$,40.7596817,-74.4160233,Madison,NJ
 Uncle Louie G Keyport,26,4.5,$,40.4369523,-74.2035597,Keyport,NJ
-Blossom Ice Cream,113,4.0,$,40.6872787475586,-73.9939727783203,Brooklyn,NY
+Blossom Ice Cream,114,4.0,$,40.6872787475586,-73.9939727783203,Brooklyn,NY
 NY Frost Factory,261,4.5,$,40.72939,-74.00069,New York,NY
 Chandler Square Ice Cream,48,4.5,$,40.9461783883459,-73.0695120610949,Port Jefferson,NY
 Waffle Magic,74,4.5,$,40.7053216,-73.3469713,West Babylon,NY
@@ -3728,11 +3728,11 @@ Uncle Louie G,4,5.0,$$,40.6805515,-73.3593784,Deer Park,NY
 Yo Luv It,27,4.0,$,40.68665,-73.348256,West Babylon,NY
 Ralph's Famous Italian Ices,7,3.5,$,40.7351303,-73.0847015,Sayville,NY
 Roger's Frigate,99,3.5,$$,40.9465615718574,-73.0691784377286,Port Jefferson,NY
+Yogurt Crazy,14,3.5,$$,40.8425816,-73.2880904,Commack,NY
 Totally Twisted,13,3.5,$$,40.8148003,-73.4095535,Melville,NY
 Ralph's Famous Italian Ices,12,3.5,$,40.7656093,-73.0122864,Patchogue,NY
 YoGoMania,16,4.0,$,40.8113699,-73.07842,Holbrook,NY
 Sweets N Scoops,5,4.0,$,40.946956775574,-72.8946552425623,Shoreham,NY
-Rita's Italian Ice,5,5.0,$,40.7324142456055,-73.1859436035156,East Islip,NY
 Scoop Du Jour,59,3.5,$$,40.9640707075596,-72.1864139288664,East Hampton,NY
 Buddha Berry,33,4.0,$$,41.0352559989166,-71.945591121912,Montauk,NY
 John's Drive-In,124,3.5,$,41.0331227,-71.9472157,Montauk,NY
@@ -4188,16 +4188,16 @@ Igloo's Frozen Yogurt,6,4.5,$$,41.366523,-81.852838,Berea,OH
 Dairy King,7,5.0,$,41.3991685956717,-81.9567216932774,North Olmsted,OH
 Malley's Chocolates,70,4.5,$,41.47757,-81.80124,Lakewood,OH
 Hastee Tastee ,4,5.0,$$,41.400699,-82.22158,Amherst,OH
-Miller's Homemade Ice Cream,18,3.0,$,41.334712,-82.342903,Birmingham,OH
+Miller's Homemade Ice Cream,19,3.0,$,41.334712,-82.342903,Birmingham,OH
 Lemonberry Frozen Yogurt,19,4.0,$,41.31942,-81.83497,Strongsville,OH
-Mitchell's Homemade,6,5.0,$,41.311984,-81.821737,Berea,OH
+Mitchell's Homemade,7,4.5,$,41.311984,-81.821737,Berea,OH
 Sal & Al's Diner,31,4.0,$,41.417828,-82.207108,Amherst,OH
 Gibson's Food Mart & Bakery,43,3.0,$$$,41.29137,-82.21823,Oberlin,OH
 Lemonberry Frozen Yogurt,17,4.0,$,41.1379586395369,-81.8641895055771,Medina,OH
 Mitchell's Ice Cream,9,4.5,$$,41.3088180927053,-81.8203387090457,Strongsville,OH
 Dari View,9,4.5,$,41.4417915,-81.8643036,Cleveland,OH
 Avon Dairy Treat,6,3.0,$,41.45324,-82.03671,Avon,OH
-Menchies,19,3.5,$,41.4602814,-81.9524689,Westlake,OH
+Menchies,20,3.5,$,41.4602814,-81.9524689,Westlake,OH
 Granny Joe's Ice Creamatorium,23,2.5,$,41.42226,-82.365921,Vermilion,OH
 Menchie's Frozen Yogurt,23,4.0,$,41.485035,-81.801298,Lakewood,OH
 Holly's Ice Cream and Yogurt,5,3.5,$,41.2896082423068,-81.8357778986054,Strongsville,OH
@@ -4387,7 +4387,7 @@ Nora's Luvin Spoonful,3,4.5,$,41.61291,-75.056629,Narrowsburg,NY
 South Street Ice Cream Cafe,2,5.0,N/A,41.5821768717786,-75.411508656407,Waymart,PA
 Garrison's Cafe & Sweet Shop,3,4.0,N/A,41.01399,-75.59506,Albrightsville,PA
 Tcby,2,2.5,$,41.3638472557068,-75.6804116070271,Moosic,PA
-Dairy Queen,19,3.5,$,41.0030117498878,-75.1458961019885,East Stroudsburg,PA
+Dairy Queen,20,3.5,$,41.0030117498878,-75.1458961019885,East Stroudsburg,PA
 Rita's Italian Ice,3,4.5,$$,41.00157,-75.19848,Stroudsburg,PA
 Cafe Berry Quool,5,4.5,$$,40.9169538,-75.4216431,Brodheadsville,PA
 Friendly's,6,2.0,$,41.4282310009003,-75.6241086870432,Dunmore,PA
@@ -4438,10 +4438,10 @@ Iscreamery,28,4.0,$,41.0037332028151,-74.0406699478626,Hillsdale,NJ
 BrainFreeze,42,4.5,$,40.9408,-74.02192,New Milford,NJ
 Dairy Isle,5,4.0,$$,41.4924847369348,-74.0219685807824,Newburgh,NY
 Huguenot Creamery,19,4.0,$,41.7479175,-74.0856255,New Paltz,NY
-The Filling Station,120,4.5,$$,41.01446,-73.91302,Palisades,NY
 Toppings Frozen Yogurt,17,3.5,$,41.4678892596656,-74.047899734222,New Windsor,NY
+The Filling Station,120,4.5,$$,41.01446,-73.91302,Palisades,NY
 Mr Cannoli,4,3.5,$,41.4606466,-74.0528811,new windsor,NY
-Arethusa Farm Dairy,195,4.5,$,41.307252,-72.9293398,New Haven,CT
+Arethusa Farm Dairy,196,4.5,$,41.307252,-72.9293398,New Haven,CT
 Ferris Acres Creamery,174,4.5,$,41.387733,-73.331987,Newtown,CT
 Sweet Cream's Ice Cream Parlor,23,5.0,$,41.4518860727549,-72.8129357099533,Wallingford,CT
 0 degree Thai Ice Cream,18,4.0,$,41.31196,-72.92233,New Haven,CT
@@ -4511,7 +4511,7 @@ Mango's Homemade Ice Cream,12,3.5,$,41.3726787,-71.9578288,Stonington,CT
 Little Mermaids,12,3.5,$$,41.32165,-71.81071,Westerly,RI
 Sea Swirl,99,3.5,$$,41.349158808589,-71.9578702747822,Mystic,CT
 Ralphs of Montauk,7,3.5,N/A,41.0345230102539,-71.9429092407227,Montauk,NY
-Buttonwood Farm Ice Cream,64,4.5,$,41.5534170799711,-71.8827266345513,Griswold,CT
+Buttonwood Farm Ice Cream,65,4.5,$,41.5534170799711,-71.8827266345513,Griswold,CT
 Dairy Queen,11,4.0,$,41.37845,-71.8346,Pawcatuck,CT
 Lickety Splits,9,4.0,$$,41.5096,-71.68463,Wyoming,RI
 South Lyme Scoop Shop,11,4.5,$,41.2969189,-72.2590669,Old Lyme,CT
@@ -4670,7 +4670,7 @@ Double Dipped Ice Cream & Coffee Shoppe,2,4.0,N/A,41.893777276079,-93.599829,Hux
 Starbuck's,16,4.0,$,42.0224761962891,-93.4374237060547,Nevada,IA
 Van Dee's Ice Cream Shoppe,22,4.5,$,41.6677053,-93.69748,Johnston,IA
 Granny's Sweet Freeze,16,4.5,$,41.6268005371094,-93.5480728149414,Des Moines,IA
-Hickory Park Restaurant Co.,273,4.0,$$,42.0099445811956,-93.6094067755548,Ames,IA
+Hickory Park Restaurant Co.,272,4.0,$$,42.0099445811956,-93.6094067755548,Ames,IA
 Black Cat Ice Cream,13,4.5,$,41.5854349023947,-93.6371495825715,Des Moines,IA
 Dairy Queen,11,2.5,$,42.1881141662598,-93.5759887695312,Story City,IA
 Cold Stone Creamery,5,4.0,$$,42.01085,-93.60968,Ames,IA
@@ -4748,7 +4748,7 @@ Culver's,11,4.0,$,41.6474536,-91.5483895,Iowa City,IA
 Dairy Queen,3,2.0,$,42.48434,-91.47658,Manchester,IA
 Bliss Cups,1,1.0,N/A,41.642995946608,-91.5035359186837,Iowa City,IA
 Three Sisters Sweet Shoppe,6,5.0,$,42.3187315,-90.2226466,Elizabeth,IL
-Korner Stop Ice Cream Shoppe,3,4.0,$,42.0713081,-90.173027,Sabula,IA
+Korner Stop Ice Cream Shoppe,3,4.5,$,42.0713081,-90.173027,Sabula,IA
 American Old Fashioned Ice Cream Parlor,23,2.5,$,42.4163646,-90.4282792,Galena,IL
 That Ice Cream Shoppe,3,3.5,N/A,41.8388322740793,-90.188300460577,Clinton,IA
 Lena Drive Inn,1,3.0,$,42.38379,-89.82884,Lena,IL
@@ -4814,13 +4814,13 @@ The Sweet Oasis,70,4.5,$,41.9596651,-87.8161999,Norridge,IL
 Glenview Dairy Bar,113,4.5,$,42.07342,-87.80529,Glenview,IL
 Daisy's Malt Shoppe,85,5.0,$,42.1255443066916,-88.0610780041068,Palatine,IL
 Andy's Frozen Custard,292,4.5,$,42.0486311628097,-87.6814086319884,Evanston,IL
-Graeter's Ice Cream,94,4.5,$$,42.1282927719301,-87.8273858875036,Northbrook,IL
+Graeter's Ice Cream,93,4.5,$$,42.1282927719301,-87.8273858875036,Northbrook,IL
 La Michoacana Ice Cream Parlor,60,5.0,$,42.200767,-87.807296,Highland Park,IL
 Chocolate Shoppe Ice Cream,251,4.5,$$,41.9972247630358,-87.7620653808117,Chicago,IL
 Brown Cow Ice Cream Parlor,295,4.5,$,41.8795699,-87.8088124,Forest Park,IL
 Gordo's,24,4.5,$,41.9946659003823,-87.6590992487536,Chicago,IL
 Chocolate Shoppe Ice Cream,51,4.5,$,42.0404581933413,-87.7294532038701,Skokie,IL
-Lickity Split Frozen Custard,434,4.5,$,41.9925749037652,-87.6605764912861,Chicago,IL
+Lickity Split Frozen Custard,435,4.5,$,41.9925749037652,-87.6605764912861,Chicago,IL
 Jeni's Splendid Ice Creams,397,4.5,$$,41.909,-87.67479,Chicago,IL
 Uncle Harry's Old Fashioned Ice Cream & Coffee,42,4.5,$,41.934151,-87.990522,Addison,IL
 George's Ice Cream and Sweets,448,4.0,$,41.97828,-87.66875,Chicago,IL
@@ -4834,10 +4834,10 @@ Tasty Treat,96,4.5,$,41.79454,-87.9748,Westmont,IL
 Jeni's Splendid Ice Creams,41,4.5,$$,41.90818,-87.63416,Chicago,IL
 Snow Dragon Shavery and Yogurt,69,4.0,$,42.0470962,-87.6823949,Evanston,IL
 Josi's Frozen Yogurt,83,4.5,$,41.9540103524923,-87.7484149485826,Chicago,IL
-Gordo's,39,4.0,$,41.87261,-87.62893,Chicago,IL
+Gordo's,40,4.0,$,41.87261,-87.62893,Chicago,IL
 Scooter's Frozen Custard,547,4.5,$,41.93980505865,-87.6709152248584,Chicago,IL
 Jeni's Splendid Ice Creams,477,4.5,$$,41.943679,-87.664267,Chicago,IL
-Ice Max,54,4.0,$,41.8520899,-87.63164,Chicago,IL
+Ice Max,55,4.0,$,41.8520899,-87.63164,Chicago,IL
 Cream Bar Custom Ice Cream Sandwiches,98,4.0,$,42.040496,-88.034269,Schaumburg,IL
 Molly and Myles Ice Cream,20,4.5,$,41.9679513653922,-87.7676413580775,Chicago,IL
 La Michoacana,44,4.5,$,42.0371359,-87.9646842,Mount Prospect,IL
@@ -4849,8 +4849,8 @@ Comet Frozen Custard,71,4.5,$$,42.07755,-88.01744,Rolling Meadows,IL
 Bobtail Ice Cream Company,603,4.0,$,41.9364112605516,-87.6441295456258,Chicago,IL
 Annette's Italian Ice,213,4.5,$,41.9184732,-87.6519588,Chicago,IL
 Greg's Frozen Custard,98,4.5,$,42.2425702321009,-87.9949235356294,Mundelein,IL
-Tates Original Old Fashioned Ice Cream Shop,80,4.5,$,41.8146748,-87.8720918,La Grange,IL
 Black Dog Gelato,538,4.0,$,41.897614,-87.676732,Chicago,IL
+Tates Original Old Fashioned Ice Cream Shop,80,4.5,$,41.8146748,-87.8720918,La Grange,IL
 Christie's Dairy Delights N' Coffee House,116,4.5,$,42.1117812,-88.0448256,Palatine,IL
 Hartigan's Ice Cream Shoppe,48,4.0,$,42.0646047,-87.7150064,Evanston,IL
 Lickity Split Frozen Custard,65,4.5,$$,42.00884,-87.6905,Chicago,IL
@@ -4985,15 +4985,15 @@ Ice Cream Time,5,4.5,$,41.9458237,-83.3138657,Monroe,MI
 Yogurtown,8,4.5,$$,42.1410710996986,-83.2037811816591,Trenton,MI
 Menchie's Frozen Yogurt,38,4.5,$,42.330552,-83.489574,Canton,MI
 The Custard Hut,65,4.0,$,42.34068,-83.29504,Dearborn Heights,MI
+Browndog,56,4.5,$$,42.46479,-83.3755,Farmington,MI
 Milkster Nitrogen Creamery,179,4.5,$,42.52081,-83.10702,Madison Heights,MI
-Browndog,55,4.5,$$,42.46479,-83.3755,Farmington,MI
 Yogurtopia,38,4.0,$,42.3044559214345,-83.2512171193957,Dearborn,MI
 Calder Dairy & Farm,22,4.0,$,42.0101927641438,-83.4353492625478,Carleton,MI
 "Browndog Treats, Drinks, & Eats",80,4.5,$$,42.4308915,-83.4825872,Northville,MI
 Ice Cream Time,18,4.5,$,42.2347717,-83.5865173,Ypsilanti,MI
 Fudgy's Ice Cream Palace,7,4.5,$,42.2027893066406,-83.2061767578125,Southgate,MI
 Mootown Ice Cream & Dessert Shoppe,47,4.0,$,42.3454521,-83.0400344,Detroit,MI
-Clark's Ice Cream And Yogurt,71,4.5,$,42.50331,-83.1925399,Berkley,MI
+Clark's Ice Cream And Yogurt,72,4.5,$,42.50331,-83.1925399,Berkley,MI
 Golden Cone,15,4.5,$$,42.48707,-83.14557,Royal Oak,MI
 Dairy King,44,4.5,$,42.3720512,-83.4685287,Plymouth,MI
 Here's the Scoop,8,4.0,$,42.2450485,-83.2312393,Taylor,MI
@@ -5006,7 +5006,7 @@ Farmhouse Coffee and Ice Cream,76,4.5,$$,42.5266912,-83.3059299,Franklin,MI
 Belleville Frosty Boy,17,3.5,$,42.20523,-83.48656,Belleville,MI
 Gibbs Sweet Station,10,4.5,$,42.16233,-83.40247,New Boston,MI
 Tou & Mai,30,4.0,$,42.3518200207707,-83.0638393259748,Detroit,MI
-Menchie's Frozen Yogurt,13,4.5,$$,42.4155357779435,-83.4328915122396,Northville,MI
+Menchie's Frozen Yogurt,12,4.5,$$,42.4155357779435,-83.4328915122396,Northville,MI
 Cream & Crumb,7,4.5,$$,42.2458151,-83.609474,Ypsilanti,MI
 Sweeties Ice Cream & Candy,11,5.0,$,42.381673063857,-82.9404691234231,Grosse Pointe Park,MI
 Trenton Ice Cream Shoppe,8,4.5,$,42.14096,-83.1933,Trenton,MI
@@ -5099,7 +5099,7 @@ My Sister's Place,1,4.0,N/A,41.7255619168282,-78.6359967291355,Mount Jewett,PA
 Red's Dogs and Cones,9,4.0,$,42.46363,-78.93398,Gowanda,NY
 Cindy Lou's Frozen Yogurt,4,5.0,$,42.5016937247876,-78.6901045500231,Springville,NY
 Friendly's,5,2.5,$$,42.0773697,-78.4585724,Olean,NY
-Little Red Caboose,5,4.0,N/A,42.5339162131263,-78.4391098809448,Arcade,NY
+Little Red Caboose,6,4.0,N/A,42.5339162131263,-78.4391098809448,Arcade,NY
 Mr T's Tasty Treats,1,5.0,N/A,41.755051,-78.582802,Kane,PA
 Fast Lane,1,5.0,N/A,42.3610506255691,-79.0494197725517,South Dayton,NY
 Lime Lake Snack Bar,4,3.5,N/A,42.4344561604159,-78.4788823127747,Delevan,NY
@@ -5241,7 +5241,7 @@ J Foster Ice Cream,41,4.0,$$,41.8143043518066,-72.8597717285156,Avon,CT
 Summer House,33,4.0,$,42.05895,-72.76672,Southwick,MA
 Caddie Shack,4,4.5,$,42.0384598,-73.3255997,Canaan,CT
 The Ice Cream Man,3,5.0,$,41.9203329331744,-73.0696199350768,Winchester,CT
-Milkcraft,119,3.0,$$,41.76126,-72.74306,West Hartford,CT
+Milkcraft,120,3.0,$$,41.76126,-72.74306,West Hartford,CT
 King Cone,18,4.0,$,42.4499092251062,-73.2510926574469,Pittsfield,MA
 J Foster,21,4.0,$$,41.878656,-72.799836,Simsbury,CT
 Dunphy's Ice Cream Parlor,21,4.5,$,41.7015953,-72.9105377,Bristol,CT
@@ -5251,7 +5251,7 @@ Frisbie's Dairy Barn,35,4.0,$,41.7027576,-72.7952827,New Britain,CT
 Popey's Ice Cream Shoppe,20,3.5,$,41.6832876205444,-73.2004766911268,Morris,CT
 The Frozen Gnome,8,3.5,$,41.7767399,-73.00676,Burlington,CT
 Pat's Main St Ice Cream,20,5.0,$$,41.59416,-72.88086,Southington,CT
-Icy Rolls,16,4.5,$$$,41.759909,-72.744078,West Hartford,CT
+Icy Rolls,17,4.5,$$$,41.759909,-72.744078,West Hartford,CT
 Sheldon's Ice Cream,7,5.0,$$$,42.2173707128986,-72.7298060399059,Southampton,MA
 Bushy Hill Orchard,22,3.5,$$,41.9582557678223,-72.810920715332,Granby,CT
 Ben & Jerry's,5,5.0,$,42.4439212,-73.2547117,Pittsfield,MA
@@ -5334,7 +5334,7 @@ Quincy Creamery,56,4.5,$,42.2401504516602,-71.0037078857422,Quincy,MA
 Crescent Ridge Dairy,195,4.0,$$,42.128641,-71.148927,Sharon,MA
 Peaceful Meadows Ice Cream,46,4.5,$,41.8892936706543,-70.9253463745117,Middleboro,MA
 Peaceful Meadows Farm,29,4.0,$,41.961891577143,-70.669263226902,Plymouth,MA
-Farfar's Danish Ice Cream Shop,51,4.0,$$,42.0489411056042,-70.6860425323248,Duxbury,MA
+Farfar's Danish Ice Cream Shop,52,4.0,$$,42.0489411056042,-70.6860425323248,Duxbury,MA
 Frozen Freddies,71,4.5,$,42.2484867274761,-70.9841828048229,Quincy,MA
 LiL Duke's Ice Cream Shoppe,14,5.0,$$,42.107854,-70.761601,Pembroke,MA
 Cupcake Charlie's,106,4.0,$$,41.9619663320617,-70.6674524338684,Plymouth,MA
@@ -5344,14 +5344,14 @@ MoooBerry Frozen Yogurt,21,5.0,$,41.947314,-71.074181,Raynham,MA
 Erickson's Ice Cream,18,4.0,$$,41.833359,-70.751114,Carver,MA
 Daddy's Dairy,32,4.0,$,42.1756143,-71.0487407,Randolph,MA
 Dairy Freeze,74,4.0,$,42.25573166396,-71.031232189572,Quincy,MA
-FoMu,117,4.5,$$,42.342132,-71.075637,Boston,MA
+FoMu,118,4.5,$$,42.342132,-71.075637,Boston,MA
 Acushnet Creamery Inc,34,5.0,$,41.6904907226562,-70.9032821655273,Acushnet,MA
 Twin Acres Ice Cream Shoppe,41,4.5,$,41.766232,-70.517684,Sandwich,MA
 Chill On Park,31,4.5,$,42.2986440724444,-71.0604208664473,Boston,MA
 Asack Turkey Farm & Dairy Bar Restaurant,36,4.5,$,42.0286314295327,-71.0081515656033,West Bridgewater,MA
 Dairy Barn,19,4.0,$,42.1861534118652,-71.0563659667969,Randolph,MA
 J.P. Licks,145,4.5,$,42.3470193,-71.0887018,Boston,MA
-Morano Gelato,85,4.5,$$,42.32128,-71.17611,Newton,MA
+Morano Gelato,86,4.5,$$,42.32128,-71.17611,Newton,MA
 JJ's Dairy Hut,23,4.5,$,42.2419608287443,-70.8341483352962,Cohasset,MA
 Hough Many Scoops,8,5.0,$$,42.2678167372942,-70.9568765759468,Quincy,MA
 FoMu,413,4.5,$,42.3538588,-71.1370967,Allston,MA
@@ -5524,7 +5524,7 @@ Dq Grill & Chill,2,5.0,$,42.31772,-89.03193,Rockford,IL
 Dairy Queen,1,1.0,N/A,42.67871,-89.00316,Janesville,WI
 Acapulco Delights,1,4.0,N/A,42.63318,-88.6456199,Delavan,WI
 Culver's of Watertown,3,3.5,$,43.1720008850098,-88.7331161499023,Watertown,WI
-3 Maria's,2,5.0,N/A,43.1920939497718,-88.7224457412958,Watertown,WI
+3 Maria's,3,5.0,N/A,43.1920939497718,-88.7224457412958,Watertown,WI
 Huskies Deli & Dairy,1,4.0,$,42.33762,-89.05429,Machesney Park,IL
 The Dairy Bean,5,3.5,$,42.34838,-88.84844,Poplar Grove,IL
 Rock Cut Concessions,2,5.0,N/A,42.3411054,-88.9733743,Loves Park,IL
@@ -5692,7 +5692,7 @@ Coolyo Frozen Yogurt,36,4.5,$$,42.6804127515423,-83.220217825084,Auburn Hills,MI
 Erma's Original Frozen Custard,98,4.5,$,42.62802,-83.04576,Shelby Township,MI
 Farmhouse Coffee and Ice Cream,76,4.5,$$,42.5266912,-83.3059299,Franklin,MI
 Twist Custard & Yogurt,20,4.5,$$,42.5466943731261,-83.4387908481629,West Bloomfield Township,MI
-Clark's Ice Cream And Yogurt,71,4.5,$,42.50331,-83.1925399,Berkley,MI
+Clark's Ice Cream And Yogurt,72,4.5,$,42.50331,-83.1925399,Berkley,MI
 iFreeze Creamery,20,4.5,$,42.615773,-82.9920713,Sterling Heights,MI
 Mr C's Custom Cone,12,4.5,$,42.6432113647461,-83.4437255859375,White Lake,MI
 Treat Dreams,270,4.5,$,42.4621365645447,-83.1359469954818,Ferndale,MI
@@ -5701,9 +5701,9 @@ Dairy Deluxe,40,4.5,$,42.53289,-83.20121,Birmingham,MI
 Erma's Original Frozen Custard,81,4.5,$,42.53437,-83.08561,Warren,MI
 Custard Corner,17,4.5,$,42.6537933349609,-83.3467178344727,Waterford,MI
 Golden Cone,15,4.5,$$,42.48707,-83.14557,Royal Oak,MI
+Browndog,56,4.5,$$,42.46479,-83.3755,Farmington,MI
 Oberweis Ice Cream & Dairy Store,48,4.0,$$,42.6206702,-83.130473,Troy,MI
 Zoyo Neighborhood Yogurt,50,4.5,$$,42.5639279134009,-83.1288240282418,Troy,MI
-Browndog,55,4.5,$$,42.46479,-83.3755,Farmington,MI
 Dolce Gelato Cafe,36,4.5,$,42.6045387,-82.9524751,Clinton Township,MI
 Lik Gelato Bar,14,4.5,$$,42.7014219760895,-83.3065252751112,Auburn Hills,MI
 Swirlz,7,4.0,$,42.7641363198963,-83.3139137776948,Lake Orion,MI
@@ -5783,7 +5783,7 @@ White Rabbit Frozen Yogurt,10,4.0,$$,42.8775215,-78.6976776,Depew,NY
 Anita's Scoops,8,4.0,$,42.9628595709801,-78.782922104001,Buffalo,NY
 Hoover's Dairy,24,4.0,$,43.1311,-78.88551,Sanborn,NY
 TCBY frozen yogurt,5,4.5,$,42.7794904341369,-78.8118875973247,Buffalo,NY
-Anderson's Frozen Custard,20,3.5,$,42.915218,-78.755043,Cheektowaga,NY
+Anderson's Frozen Custard,22,4.0,$,42.915218,-78.755043,Cheektowaga,NY
 Yotality,18,3.5,$$,42.9636007031275,-78.7383103711292,Williamsville,NY
 Canalside Buffalo,15,3.5,$,42.8756855038041,-78.8787854230787,Buffalo,NY
 Cheshire Farms Creamery,24,4.5,$$,42.88021,-77.27708,Canandaigua,NY
@@ -6092,7 +6092,7 @@ Memories Ice Cream,38,4.0,$$,42.95262,-71.01377,Kingston,NH
 Long Beach Dairy Maid,23,4.0,$$,42.6255149841309,-70.6245193481445,Gloucester,MA
 Mad Maggie's Ice Cream,57,4.0,$$,42.7147026062012,-71.1161499023438,North Andover,MA
 Biggart Ice Cream,20,4.5,$,42.80727,-71.04632,Haverhill,MA
-Carter's Ice Cream,23,4.0,$,42.75247,-71.05523,Haverhill,MA
+Carter's Ice Cream,24,4.0,$,42.75247,-71.05523,Haverhill,MA
 Dairy Witch Ice Cream,28,4.5,$,42.5208075,-70.9130263,Salem,MA
 A Sweet Affair,13,5.0,$,42.77318,-71.0837,Haverhill,MA
 Just the Wright Place For Ice Cream,13,4.5,$$,43.01474,-70.91724,Stratham,NH
@@ -6308,7 +6308,7 @@ Timber Creek Pizza,16,3.0,$$,43.0793284624815,-88.9093722403049,Lake Mills,WI
 Culver's,17,3.0,$,43.1250762939453,-89.3083038330078,Madison,WI
 Culver's,14,3.5,$,43.08371,-89.30756,Madison,WI
 Dairy Queen,7,4.0,$,43.1824799,-89.2252502,Sun Prairie,WI
-3 Maria's,2,5.0,N/A,43.1920939497718,-88.7224457412958,Watertown,WI
+3 Maria's,3,5.0,N/A,43.1920939497718,-88.7224457412958,Watertown,WI
 Culver's of Watertown,3,3.5,$,43.1720008850098,-88.7331161499023,Watertown,WI
 Dairy Queen,13,1.0,$,43.0850906,-89.3009491,Madison,WI
 Culver's,2,1.5,$,43.8535423278809,-88.8587493896484,Ripon,WI
@@ -7305,26 +7305,26 @@ Dairy Queen,2,3.5,$$,44.8058516532183,-95.54661847651,Granite Falls,MN
 A & W Restaurant,2,3.5,N/A,45.4526549,-94.5036979,Richmond,MN
 Dairy Queen,1,4.0,$$,45.37736,-94.72726,Paynesville,MN
 Dairy Queen,3,3.5,$,45.2305030822754,-94.9391860961914,Spicer,MN
-Milkjam Creamery,428,4.5,$,44.95233,-93.2877,Minneapolis,MN
+Milkjam Creamery,427,4.5,$,44.95233,-93.2877,Minneapolis,MN
 Sebastian Joe's,342,4.5,$,44.9625818,-93.2918855,Minneapolis,MN
 Izzy's Ice Cream,225,4.5,$$,44.976536759153,-93.2518372279866,Minneapolis,MN
-Licks Unlimited,34,4.5,$,44.90363,-93.56572,Excelsior,MN
-Izzy's Ice Cream Café,254,4.5,$$,44.948235345994,-93.186392887392,Saint Paul,MN
+Licks Unlimited,33,4.5,$,44.90363,-93.56572,Excelsior,MN
 Adele's Frozen Custard,53,4.0,$,44.9022521972656,-93.5577011108398,Excelsior,MN
+Izzy's Ice Cream Café,254,4.5,$$,44.948235345994,-93.186392887392,Saint Paul,MN
 Lost Lake Creamery,11,5.0,$,44.9367845402532,-93.6655213521084,Mound,MN
 Honey and Mackie's,26,4.0,$,45.0193381,-93.4928415,Plymouth,MN
 La La Homemade Ice Cream,41,4.5,$$,44.9450602681152,-93.2986265885132,Minneapolis,MN
 Pumphouse Creamery,132,4.0,$,44.91639,-93.26303,Minneapolis,MN
 Cold Front,43,4.5,$,44.926595,-93.1567051,Saint Paul,MN
-Sebastian Joe's,124,4.0,$$,44.92379,-93.31465,Minneapolis,MN
+Sebastian Joe's,125,4.0,$$,44.92379,-93.31465,Minneapolis,MN
 Sonny's Ice Cream,100,4.0,$$,44.941134,-93.2881614,Minneapolis,MN
-Yogurt Lab,32,4.0,$,44.9757058918476,-93.2723935693502,Minneapolis,MN
+Yogurt Lab,33,4.0,$,44.9757058918476,-93.2723935693502,Minneapolis,MN
 Grand Ole Creamery & Grand Pizza,216,4.0,$,44.9397149414257,-93.1318988920307,Saint Paul,MN
 Cone Brothers Ice Cream & Candy,29,4.0,$,44.8823999,-93.30823,Richfield,MN
 Two Scoops,32,4.5,$,45.1969731,-93.3893568,Anoka,MN
 Grand Ole Creamery,51,4.0,$$,44.916769,-93.2469042,Minneapolis,MN
 Big Dipper Creamery - Blaine,26,4.0,$,45.1984061,-93.2386489,Blaine,MN
-Grandpa's Ice Cream,32,4.0,$$,45.0812829783253,-93.2386195187714,Fridley,MN
+Grandpa's Ice Cream,31,4.0,$$,45.0812829783253,-93.2386195187714,Fridley,MN
 Cafe Donuts & Cool Cups Yogurt,20,4.0,$,44.9771642,-93.2687913,Minneapolis,MN
 Yogurt Lab,121,4.0,$,44.946538,-93.322282,Minneapolis,MN
 Menchie's Frozen Yogurt,55,4.5,$,44.9187643896925,-93.1871996441726,Saint Paul,MN
@@ -7611,7 +7611,7 @@ Cold As Ice,21,4.5,$,45.5194300117816,-122.580799944699,Portland,OR
 Tropical Sno,18,5.0,$,45.7048072814941,-122.650840759277,Vancouver,WA
 Yogurt Munch,69,3.5,$,45.5371715505581,-122.903189484617,Hillsboro,OR
 Cream Northwest,10,5.0,$,45.2968788146973,-122.973457336426,Newberg,OR
-Staccato Gelato,142,4.0,$,45.52488,-122.63696,Portland,OR
+Staccato Gelato,143,4.0,$,45.52488,-122.63696,Portland,OR
 Dairy Hill Ice Cream,37,4.0,$,45.4779609459303,-122.695843577385,Portland,OR
 Eb & Bean,39,4.0,$,45.50458,-122.63408,Portland,OR
 Fifty Licks Ice Cream,83,4.0,$$,45.52262,-122.63758,Portland,OR
@@ -7631,7 +7631,7 @@ Gorge Ice Cream,42,5.0,$,45.70987,-121.51301,Hood River,OR
 Locks of Dogs & Treats,23,5.0,$,45.6701698303223,-121.889701843262,Cascade Locks,OR
 The Cabin Drive-Thru,32,5.0,$,45.6972135553079,-121.877402980426,Stevenson,WA
 Cicci Gelato,16,4.5,$,45.7146923410961,-121.516426921014,Hood River,OR
-East Wind Drive-In,143,4.0,$,45.6701698303223,-121.889701843262,Cascade Locks,OR
+East Wind Drive-In,144,4.0,$,45.6701698303223,-121.889701843262,Cascade Locks,OR
 Volcano Cones,5,5.0,$$,45.3039083276237,-121.75569947809,Government Camp,OR
 Granny's Gedunk Ice Cream Parlor,5,4.5,$,45.693649,-121.883056,Stevenson,WA
 Yum Frozen Yogurt,5,4.0,$,45.70865,-121.51182,Hood River,OR
@@ -7765,7 +7765,7 @@ Kilwins Mackinaw Central,11,4.0,$$,45.7813223,-84.7292689,Mackinaw City,MI
 Molly Moos,10,3.5,$,45.8727028161129,-84.7308740927583,St. Ignace,MI
 Good Day Cafe,10,4.0,$,45.850264,-84.6173665,Mackinac Island,MI
 Twist n Sprouts,37,4.0,$,45.8500525,-84.6175868,Mackinac Island,MI
-Sanders Chocolate & Ice Cream Shops,13,3.5,$$,45.8495514,-84.6179185,Mackinac Island,MI
+Sanders Chocolate & Ice Cream Shops,14,3.5,$$,45.8495514,-84.6179185,Mackinac Island,MI
 Sweet Spot,8,4.0,$$,45.78068,-84.72556,Mackinaw City,MI
 Cannonball,18,3.5,$,45.8772876261154,-84.644457728125,Mackinac Island,MI
 Devon's Mackinac Island Fudge Co,6,3.0,$$,45.7764774,-84.7266127,Mackinaw City,MI
@@ -7865,7 +7865,6 @@ Dairy Queen,5,4.0,$,46.7167911178534,-117.183209014547,Pullman,WA
 Baskin-Robbins,1,5.0,$$$,46.4196243286133,-117.058265686035,Clarkston,WA
 Spot On Yogurt,1,3.0,$$,46.4206416896652,-117.042685747147,Clarkston,WA
 Augie's Deli,12,4.5,$,46.4773968,-116.2525234,Orofino,ID
-The Log Yard,1,5.0,N/A,46.2288630662475,-116.028616088348,Kamiah,ID
 Caliber Coffee,2,4.5,$,46.4836310756051,-116.242070839323,Orofino,ID
 Huckleberry Heaven Lodge & General Store,1,4.0,$$,46.7831199,-116.17827,Elk River,ID
 Sweet Peaks,36,5.0,$,46.8724754224488,-113.992513414106,Missoula,MT
@@ -7938,7 +7937,7 @@ Dairy Queen,2,4.0,$,46.10755,-93.64458,Onamia,MN
 Dairy Queen,2,3.5,N/A,46.5331199,-93.70319,Aitkin,MN
 The Portland Malt Shoppe,72,4.0,$,46.7933387756348,-92.0893936157227,Duluth,MN
 King of Creams,32,4.5,$,46.7944233220144,-92.0962724043728,Duluth,MN
-Gordy's Hi Hat Drive-Inn,97,4.0,$,46.733684,-92.46789,Cloquet,MN
+Gordy's Hi Hat Drive-Inn,98,4.0,$,46.733684,-92.46789,Cloquet,MN
 Bridgeman's Restaurant & Ice Cream Parlour,24,4.0,$,46.8054885864258,-92.1652145385742,Duluth,MN
 Chilly Billy's Frozen Yogurt,7,3.5,$$,46.8169551,-92.0781284,Duluth,MN
 Sweeden Sweets,7,4.5,$$,46.7312049865723,-92.1043319702148,Superior,WI
@@ -8010,7 +8009,7 @@ Yo! G's Frozen Yogurt,26,4.0,$,47.359567207204,-122.60272073997,Gig Harbor,WA
 Baskin-Robbins,6,4.5,$,47.0472685,-122.9395084,Olympia,WA
 Dairy Queen,19,3.5,$,47.0435101127159,-122.844639444349,Olympia,WA
 Blu Berry Frozen Yogurt,71,4.0,$,47.65374,-122.69182,Silverdale,WA
-Kelsy's All Natural,88,3.5,$$,47.3666529965331,-123.159228343624,Shelton,WA
+Kelsy's All Natural,89,3.5,$$,47.3666529965331,-123.159228343624,Shelton,WA
 Carter's Chocolates,26,4.5,$$,47.5429708267814,-122.626856155694,Port Orchard,WA
 Limeberry Yelm Frozen Yogurt,8,4.0,$,46.93431,-122.59313,Yelm,WA
 Dairy-Bar,22,4.0,$,46.6610640276017,-122.973561425344,Chehalis,WA
@@ -8042,7 +8041,7 @@ The Original Latte On Your Way,2,5.0,$,47.64851,-122.694809,Silverdale,WA
 Costco Food Court,2,5.0,$,47.656571,-122.680673,Silverdale,WA
 Baskin-Robbins 31 Ice Cream Stores,1,5.0,$$,47.6551856994629,-122.691032409668,Silverdale,WA
 Sweet Necessities,62,5.0,$,47.2037245622825,-121.989948442392,Enumclaw,WA
-Nutty Squirrel Gelato,75,4.5,$,47.36316,-122.02017,Maple Valley,WA
+Nutty Squirrel Gelato,76,4.5,$,47.36316,-122.02017,Maple Valley,WA
 Rita's Italian Ice and Frozen Custard,58,4.5,$,47.3600701469299,-122.166648432612,Kent,WA
 Yum-e Yogurt,45,4.0,$,47.53128,-122.03624,Issaquah,WA
 Ben & Jerry's,29,4.5,$$,47.544052349387,-122.01601267421,Issaquah,WA
@@ -8093,7 +8092,7 @@ Viadolce Gelato,59,3.5,$,47.59474,-120.66369,Leavenworth,WA
 Roslyn Candy Company,3,4.5,$,47.223201,-120.992781,Roslyn,WA
 Das Sweet Shoppe,38,3.5,$,47.5948143,-120.6625796,Leavenworth,WA
 Blue Spoon Yogurt,14,4.0,$,47.4387267352053,-120.326439142227,Wenatchee,WA
-Dairy Queen,8,2.5,$,47.00239,-120.53141,Ellensburg,WA
+Dairy Queen,9,2.0,$,47.00239,-120.53141,Ellensburg,WA
 Heidleburger Drive-In,40,3.5,$,47.58994,-120.67368,Leavenworth,WA
 Dairy Queen,14,2.5,$,47.19409,-120.93443,Cle Elum,WA
 Cold Stone Creamery,22,3.5,$$,47.59612,-120.66084,Leavenworth,WA
@@ -8210,7 +8209,7 @@ Dairy Queen,1,1.0,N/A,47.4929499,-94.9002621,Bemidji,MN
 The Portland Malt Shoppe,72,4.0,$,46.7933387756348,-92.0893936157227,Duluth,MN
 King of Creams,32,4.5,$,46.7944233220144,-92.0962724043728,Duluth,MN
 Bridgeman's Restaurant & Ice Cream Parlour,24,4.0,$,46.8054885864258,-92.1652145385742,Duluth,MN
-Gordy's Hi Hat Drive-Inn,97,4.0,$,46.733684,-92.46789,Cloquet,MN
+Gordy's Hi Hat Drive-Inn,98,4.0,$,46.733684,-92.46789,Cloquet,MN
 Chilly Billy's Frozen Yogurt,7,3.5,$$,46.8169551,-92.0781284,Duluth,MN
 Chocolate Shoppe Ice Cream Duluth,5,4.0,$$,46.801712,-92.075371,Duluth,MN
 Bridgeman's On the Lakewalk,2,4.5,$,46.79204,-92.09074,Duluth,MN
@@ -8246,7 +8245,7 @@ Union Country Store,14,4.5,$,47.3568637669086,-123.099502623081,Union,WA
 Olympic Mountain Ice Cream,10,5.0,N/A,47.32718,-123.27339,Shelton,WA
 Viking Feast Ice Cream,18,3.5,$,47.74795,-122.65542,Poulsbo,WA
 Yo! G's Frozen Yogurt,26,4.0,$,47.359567207204,-122.60272073997,Gig Harbor,WA
-Kelsy's All Natural,88,3.5,$$,47.3666529965331,-123.159228343624,Shelton,WA
+Kelsy's All Natural,89,3.5,$$,47.3666529965331,-123.159228343624,Shelton,WA
 Revive Coffeehouse & Frozen Yogurt,5,4.5,N/A,47.49792,-122.64828,Port Orchard,WA
 Cold Stone Creamery,13,3.0,$$,47.56318,-122.62486,Bremerton,WA
 Dairy Queen,19,2.5,$,47.5700874328613,-122.682060241699,Bremerton,WA
@@ -8275,7 +8274,7 @@ Udderly Sweet Frozen Yogurt,19,4.0,$$,47.9427556,-122.108635,Snohomish,WA
 SÜSU Rolled Ice Cream,29,4.0,$,47.75788,-122.31364,Seattle,WA
 Seattle Ice Cream Catering & Events,17,5.0,$$,47.614128112793,-122.144119262695,Bellevue,WA
 TCBY,13,4.0,$,47.547955,-121.9970444,Issaquah,WA
-Nutty Squirrel Gelato,75,4.5,$,47.36316,-122.02017,Maple Valley,WA
+Nutty Squirrel Gelato,76,4.5,$,47.36316,-122.02017,Maple Valley,WA
 U-Swirl,15,4.0,$,47.529,-122.03616,Issaquah,WA
 Snohomish Scoop and Sweet Shoppe,14,3.5,$,47.9111175537109,-122.09521484375,Snohomish,WA
 Yogurtland,13,4.5,$,47.614766,-122.033499,Sammamish,WA
@@ -8364,6 +8363,7 @@ Cheney Delights,2,1.0,$,47.48785,-117.57433,Cheney,WA
 Dairy Queen,1,3.0,$,47.680755,-117.286003,Spokane Valley,WA
 The Bean,9,5.0,$,47.5381,-116.12776,Kellogg,ID
 The Clark Fork Pantry,9,4.5,$,48.14568,-116.17642,Clark Fork,ID
+Tall Pine Drive-In,3,4.5,N/A,47.5357342511415,-116.235708966851,Pinehurst,ID
 Ripples Ice Cream Parlor,14,5.0,$,47.4561,-114.87807,Plains,MT
 Sweet Peaks,12,4.5,$,48.06316,-114.07374,Bigfork,MT
 Burgertown Dairy Freeze,26,4.5,$,48.05582,-114.07258,Bigfork,MT

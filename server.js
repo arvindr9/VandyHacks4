@@ -26,30 +26,31 @@ const urlencodedParser = bodyParser.urlencoded({
 
 const spawn = require('child_process').spawn;
 
-
-let executePythonScript = () => {
-  // python stuff here
-  py    = spawn('python', ['script.py']);
-  data = [1],
-  dataString = '';
-
-  py.stdout.on('data', function(data){
-    dataString += data.toString();
-  });
-  py.stdout.on('end', function(){
-    console.log('result:',dataString);
-  });
-  py.stdin.write(JSON.stringify(data));
-  py.stdin.end();
-}
-executePythonScript();
-
-
-
-
 // POST /api/users gets JSON bodies
 app.post('/', jsonParser, (req, res) => {
   if (!req.body) return res.sendStatus(400);
+  const longitude = req.longVal;
+  const latitude = req.latVal;
+  const radius = req.distanceVal;
+
+  let executePythonScript = () => {
+    // python stuff here
+    py  = spawn('python', ['./api_caller.py']);
+    /*data = []
+    data = [latitude, longitude, radius, category]
+    dataString = '';
+    run script
+    py.stdout.on('data', function(data){
+      dataString += data.toString();
+    });
+    py.stdout.on('end', function(){
+      console.log('result:',dataString);
+    });
+    py.stdin.write(JSON.stringify(data));
+    py.stdin.end();*/
+  }
+  executePythonScript();
+  
   console.log(req.body);
   // create user in req.body
 });
